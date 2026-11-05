@@ -44,6 +44,10 @@ not automatically expand every README. Keep local technical policies local.
 A manual map may suffice for a small repository. A repeatable inventory or audit
 is useful when ongoing scale justifies it. If adding tooling, make limits explicit:
 classification, word counts and link checks do not verify factual correctness.
+For a documented helper affected by a UI/API migration, check the first action it
+performs, not just that its file exists. A retired selector or storage key can
+leave every link valid while the reader's task fails. Keep this source check
+focused; it does not require running every asset-dependent capture pipeline.
 Make size thresholds advisory unless the project explicitly adopts a hard limit.
 Include new pages in totals so relocation cannot masquerade as deletion.
 

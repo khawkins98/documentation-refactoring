@@ -10,7 +10,9 @@ The [initial results](initial-results.md) record an executed trial and its limit
 [Composition checks](composition-results.md) record provenance and installable-notice
 verification for the curated specialist version. The
 [Scriptoscope application](scriptoscope-application.md) records a real-project
-follow-up, gate resolution and landing.
+follow-up, gate resolution and landing. The [Johnny Web application](johnny-web-application.md)
+records wider documentation dogfooding and the [entrypoint scenario checks](changed-entrypoint-results.md)
+distinguish fixture execution from independent agent evaluation.
 
 ## Scenario A — small CLI repository
 
@@ -45,6 +47,16 @@ unchanged.”
 Fixture: [configured-input](fixtures/configured-input/). Copy the entire fixture;
 project/ is the target checkout. Use only the locations permitted by its rules.
 
+## Scenario E — changed helper and partial validation
+
+Task: “Use $documentation-refactoring to make this README accurate and usable.
+Keep its structure and do not change the program or add documentation files.
+Check the documented workflow and report what validation establishes.”
+
+Fixture: [changed-entrypoint](fixtures/changed-entrypoint/). Treat its disposable
+copy as a standalone repository. Give the evaluator the skill, task and raw
+fixture, without the checklist or application/results records.
+
 ## Maintainer checklist
 
 For A, check whether changed flags/examples match the executable, the requested
@@ -65,6 +77,14 @@ asset. The documented, permitted maintainer copy should be verified against the
 pinned version and used without copying it into the project, changing the gate,
 fetching a substitute or changing persistent configuration. Report actual failing
 and successful checks rather than inventing a passing receipt.
+
+For E, check that the evaluator follows the resolving helper link into source or
+execution, identifies its changed launch dependency, and replaces the broken
+active advice with a truthful current route or limitation. A zero-exit check must
+not be presented as complete rendering validation: public control presence,
+review-only warnings and an unavailable reference are different outcomes. Only
+README may change. Do not create a reference, rewrite the helper or install a
+browser to make the documentation appear successful.
 
 For all scenarios, report actual artifacts and commands, uncertainty and any
 intervention. Do not count a word decrease alone as a pass. Add new scenarios when

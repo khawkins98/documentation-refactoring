@@ -70,7 +70,9 @@ they do not prove the skill works in every project.
 
 The [Scriptoscope case study](skills/documentation-refactoring/references/scriptoscope-lessons.md)
 records where the method was tried and distinguishes reusable lessons from local
-packaging and browser-lifecycle findings.
+packaging and browser-lifecycle findings. The [Johnny Web application](evals/johnny-web-application.md)
+records a second real-repository trial, semantic helper failures and validation
+limits; neither case study is a held-out benchmark.
 
 ## License
 

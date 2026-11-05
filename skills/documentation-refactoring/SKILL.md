@@ -67,8 +67,11 @@ For a focused edit, the guidance here is sufficient.
 
 Check changed commands, names and claims against allowed source or executable
 examples. Check moved relative links, heading anchors, inbound references and
-agent-discovery files. Retain compatibility routes where their navigation value
-justifies them.
+agent-discovery files. A resolving link does not establish a working task: when a
+linked helper depends on a changed UI or API, inspect its executable entrypoint
+and current inputs. Repair it only within scope; otherwise identify its limitation
+and route readers to a maintained alternative. Retain compatibility routes where
+their navigation value justifies them.
 
 Inspect the project's actual publication or packaging contract before moving
 pages. A link that resolves in the checkout may fail in an installed package,
@@ -84,7 +87,10 @@ authorized scope; do not substitute or publish restricted inputs to obtain a pas
 Test representative reader tasks: choosing a setup, reaching a working result,
 finding an advanced option and identifying a relevant limitation. A fresh agent
 can help when authorized and useful, but is not a user study. State exactly what
-was checked and what remains uncertain.
+was checked and what remains uncertain. Distinguish command success from the
+capabilities exercised: inspect skips and review-only warnings before claiming
+validation. Synthetic fixtures and historical results keep their own conditions;
+they do not establish current live behavior.
 
 For broad cleanups, report both entrance-page size and total documentation change,
 including added files and relocated material. Counts diagnose growth; they are
