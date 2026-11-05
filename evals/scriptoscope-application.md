@@ -1,5 +1,9 @@
 # Scriptoscope application — 2026-11-05
 
+> Follow-up: the exact-head gate now passes. The initial failed attempt below
+> is retained as history; the maintainer copy already existed and its path had
+> not been configured. See the resolution at the end.
+
 Applied the curated skills at revision
 `89f138f293e863d64537d91fdcf71ed25da1c` to the existing
 [Scriptoscope documentation draft #659](https://github.com/khawkins98/scriptoscope/pull/659).
@@ -46,3 +50,18 @@ This pass used static reader/source review rather than a new browser user study.
 Earlier package/browser results remain associated with their earlier candidate.
 The private-header requirement is project-local; the skill did not gain a new
 universal rule or dependency to accommodate it.
+
+## Follow-up: header configuration resolved
+
+A subsequent filename search found the existing Universal Interfaces 3.0.1 header
+in the local shared maintainer tools. Its SHA-256 matched the generator's pinned
+source, and the direct trap-table comparison passed. The full `lane:ready` gate
+then passed on the same Scriptoscope head `797b57a`, including trap verification,
+engine diff, source validation, typecheck and the full Node suite. Its passing
+receipt replaced the failed receipt in PR #659.
+
+The initial limitation was an unconfigured `SCRIPTOSCOPE_TRAPS_H` / `--traps-h`
+path, not absence of the file from the machine. Calling the draft blocked before
+checking the permitted local maintainer locations was premature. No header was
+substituted, published or copied into the target checkout, and no source change
+or gate waiver was needed.
