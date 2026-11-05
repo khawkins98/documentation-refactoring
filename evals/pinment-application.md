@@ -31,7 +31,7 @@ access and checking PDFs for content beyond comments. Contributor setup now
 includes a separate target page, the running development server and the local
 versus production hub distinction. Duplicate maintenance prose became a pointer.
 
-Final README is 738 words; all Markdown, including the new 886-word developer
+At `4666c59`, README is 738 words; all Markdown, including the new 886-word developer
 guide, grows from 2,587 to 3,132 words. This growth supplies missing handoff,
 recovery and setup instructions. Advanced implementation lookup gains a guide
 click. PRD, LEARNINGS, CHANGELOG, license, manifests/lockfile and the original
@@ -113,3 +113,24 @@ No new generic fixture was added: the disposable real-repository exercise suppli
 observable behavior for these narrow instruction changes. The root README and
 PR description now route trial detail to evaluation records rather than growing
 another copy of every application's history.
+
+## Maintainer correction: preserve the product pitch
+
+The maintainer preferred “Pin comments to any webpage” to our qualified
+“webpages you can access.” That qualification made the lead copy cumbersome;
+access and CSP limits already had useful homes in the workflow. The
+[follow-up](https://github.com/khawkins98/pinment/commit/b578b3d) restores the pitch
+in README, the page title and tagline, and removes a generic restriction warning
+from the pin feature card. Relevant setup, privacy and compatibility notes remain.
+
+The skill now distinguishes ordinary product shorthand from compatibility or
+security guarantees. It preserves clear, memorable phrasing and places practical
+caveats beside the task, qualifying a headline when needed to prevent a material
+misconception. This corrects an overapplication of the earlier accuracy review;
+it is not permission to leave a misleading technical guarantee unchanged.
+
+The updated README is 736 words, the developer guide 895, and all Markdown 3,139.
+The production build, 15 local links and whitespace checks pass. Both skill
+validators and 60 local skill-repository links pass. This prose correction was
+manually reviewed against the existing entrance criteria; no new independent
+evaluation or browser-compatibility result is claimed.

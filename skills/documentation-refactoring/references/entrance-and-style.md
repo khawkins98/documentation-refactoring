@@ -43,6 +43,11 @@ required wording:
 - Give each paragraph one purpose. Remove repeated product promises, duplicate
   setup advice, unsupported superlatives and promotional comparisons. Preserve
   useful personal voice; do not turn every project into generic product copy.
+- Keep product pitches clear and memorable. Distinguish ordinary shorthand from
+  a compatibility or security guarantee. Put practical caveats beside the affected
+  task; qualify the headline when needed to prevent a material misconception.
+  Avoid weakening useful phrasing merely to state obvious prerequisites or cover
+  every technical exception.
 - Prefer a positive, precise statement to rhetorical contrasts and reassurance
   about unrequested alternatives. Name actual limits rather than adding vague
   promises such as “seamless”, “robust” or “fully secure”.

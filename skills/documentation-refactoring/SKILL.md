@@ -50,7 +50,8 @@ uncertainty rather than quietly choosing whichever source makes rewriting easies
   (learning), how-to (a task), reference (lookup) and explanation (understanding).
   Do not force every project into four directories or split every heading.
 - Keep the entrance focused on orientation, a complete first success, material
-  adoption limits and useful routes. Preserve the project's voice where it helps.
+  adoption limits and useful routes. Preserve the project's voice and clear product
+  pitch; place practical caveats where readers need them to act.
 - Update one authoritative explanation before adding another. Keep examples
   self-contained enough to run, but link exhaustive options and background.
   Merge duplicate accounts and retire obsolete active advice.
