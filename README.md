@@ -16,7 +16,7 @@ Project and user instructions take precedence over these defaults.
 
 ## Use
 
-Once the initial skills PR is merged, install one or both with the [Skills CLI](https://skills.sh/docs/cli):
+Install one or both with the [Skills CLI](https://skills.sh/docs/cli):
 
 ```sh
 npx skills add khawkins98/documentation-refactoring --skill documentation-refactoring
@@ -53,4 +53,4 @@ packaging and browser-lifecycle findings.
 
 ## License
 
-[MIT](LICENSE), proposed for the initial release.
+[MIT](LICENSE).
