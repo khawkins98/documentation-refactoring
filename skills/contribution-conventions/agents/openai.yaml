@@ -1,0 +1,4 @@
+interface:
+  display_name: "Contribution Conventions"
+  short_description: "Prepare focused commits and clear pull requests"
+  default_prompt: "Use $contribution-conventions to prepare this change’s commits and pull request using the repository’s rules."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Documentation Refactoring"
+  short_description: "Refactor docs around reader tasks and canonical sources"
+  default_prompt: "Use $documentation-refactoring to improve this repository’s documentation and verify the reader paths."
