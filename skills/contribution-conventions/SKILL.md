@@ -1,6 +1,6 @@
 ---
 name: contribution-conventions
-description: Prepare commits and pull requests using this maintainer's defaults for conventional titles, concise Markdown descriptions and no unsolicited AI attribution, while honoring the target repository's rules. Use when commit or PR preparation is requested or already authorized.
+description: Compose Conventional Commits and a credited upstream commit reference with maintainer preferences to prepare clear commits and PRs. Use for requested or authorized contribution preparation; target-project rules override the defaults.
 ---
 
 # Contribution conventions
@@ -9,6 +9,12 @@ These are maintainer preferences, not universal repository requirements. Explici
 user instructions and the target project's rules take precedence. This skill
 helps prepare the contribution requested; it does not authorize pushing, opening
 a PR, merging, publishing or changing repository configuration by itself.
+
+The specialist sources are **Conventional Commits contributors** and **dmythro
+and contributors' git-commit skill**, combined with the maintainer's preferences.
+For type lookup, use the [directly reused table](references/upstream/dmythro/commit-types.md).
+Its [source record](references/expert-map.md) and [MIT notice](references/upstream/dmythro/LICENSE)
+travel with this skill. Other workflow instructions are independently written.
 
 ## Inspect the actual contribution
 

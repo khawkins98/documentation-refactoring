@@ -7,6 +7,8 @@ of its prompt. Inspect the resulting files and tool actions; a plausible plan is
 not evidence that the workflow succeeded.
 
 The [initial results](initial-results.md) record an executed trial and its limits.
+[Composition checks](composition-results.md) record provenance and installable-notice
+verification for the curated specialist version.
 
 ## Scenario A — small CLI repository
 

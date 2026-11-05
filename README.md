@@ -1,9 +1,15 @@
 # Documentation refactoring
 
-Reusable agent skills for making repository documentation easier to use and
-maintain. The method combines task-oriented organization, Diátaxis, progressive
-disclosure and one maintained explanation per contract. It aims to improve reader
-outcomes, rather than minimize word counts.
+A curated, mixture-of-experts-style collection of agent skills for maintaining
+repository documentation. It brings together established specialists in document
+structure, audience, prose, reader review and contribution conventions, with a
+small layer for selecting and applying their methods to a project.
+
+The foundations belong to their authors: **Daniele Procida (Diátaxis), GitHub and
+awesome-copilot contributors, Samuel Berthe, Leonardo Flores / Softaworks, Google,
+Anthropic, dmythro and the Conventional Commits contributors**. The
+[source and reuse records](SOURCES.md) credit each contribution and distinguish
+inspiration, adaptation and direct reuse.
 
 | Skill | Use it for |
 | --- | --- |
@@ -13,6 +19,21 @@ outcomes, rather than minimize word counts.
 The skills are independent. Documentation refactoring does not require the
 contribution skill, and neither grants permission to push, publish or merge.
 Project and user instructions take precedence over these defaults.
+
+## Choose the useful specialists
+
+| Need | Perspective we draw from |
+| --- | --- |
+| Distinguish learning, tasks, reference and explanation | Daniele Procida's Diátaxis; GitHub's documentation writer |
+| Find mixed purposes, duplicate accounts and navigation drift | Samuel Berthe's docs structure audit |
+| Fit a README to its audience and edit prose | Leonardo Flores / Softaworks' README and writing guidance |
+| Maintain a smaller, accurate documentation set | Google's documentation practices |
+| Check whether a fresh reader can use the result | Anthropic's coauthoring workflow; local evaluation fixtures |
+| Prepare contribution titles and descriptions | Conventional Commits; dmythro's git-commit reference; project preferences |
+
+Here, experts means specialist methods and source skills. One agent can apply the
+needed perspectives; multiple agents are optional when authorized. The collection
+is self-contained and does not automatically install or invoke external skills.
 
 ## Use
 
@@ -53,4 +74,6 @@ packaging and browser-lifecycle findings.
 
 ## License
 
-[MIT](LICENSE).
+Original contributions: [MIT](LICENSE). Directly reused material retains its
+[upstream notices](THIRD_PARTY_NOTICES.md), including notices inside the installable
+skill. See [SOURCES](SOURCES.md) for exact relationships and reviewed revisions.

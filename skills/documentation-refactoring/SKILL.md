@@ -1,6 +1,6 @@
 ---
 name: documentation-refactoring
-description: Refactor existing repository documentation around reader tasks, separating guides from reference and consolidating duplicate or stale explanations. Use for README cleanup, documentation sprawl, or repository-wide documentation maintenance; scale the work to the requested scope.
+description: Apply a curated mix of documentation specialists to refactor existing repository docs around reader tasks, consolidate stale or duplicate explanations and verify the result. Use for README cleanup or repository-wide maintenance, scaled to the requested scope.
 ---
 
 # Documentation refactoring
@@ -9,6 +9,18 @@ Improve readers' ability to choose a path, complete a task and find the maintain
 contract. Shorter prose is useful only when those outcomes and necessary detail
 survive. This skill does not require a particular documentation tree or companion
 skill.
+
+## Select the useful perspectives
+
+Combine the lenses the task needs: Diátaxis and GitHub's documentation writer for
+structure; Samuel Berthe's audit for information architecture; Leonardo Flores /
+Softaworks for audience and prose; Google for maintenance; and Anthropic's
+coauthoring workflow for fresh-reader checking. These are credited sources of the
+independently written synthesis, not claims of a new documentation framework.
+The [expert map and source records](references/expert-map.md) explain when each
+lens helps, reviewed revisions and source-license boundaries. Consult them when
+selecting a broad approach or checking provenance, not for every small correction.
+No external skill installation, agent team or remote fetch is required.
 
 ## Establish scope and authority
 
@@ -23,8 +35,9 @@ Distinguish maintained instructions, lookup reference, explanation, proposals,
 records, evidence, provenance and generated output. A dated failed experiment is
 not stale usage advice. Preserve its original claims, conditions and limitations;
 use a dated superseding note or navigation pointer when needed. Exact bytes must
-survive when project evidence rules require it. When a generated document needs updating, use its existing source or generator
-rather than editing it as ordinary prose.
+survive when project evidence rules require it. When a generated document needs
+updating, use its existing source or generator rather than editing it as ordinary
+prose.
 
 A canonical documentation home is the maintained reader-facing explanation.
 Code, generated declarations or an adopted specification can remain its technical
@@ -79,6 +92,6 @@ permission ceremony, but the skill itself does not authorize push, publication,
 merging or installing persistent configuration. Follow the project's contribution
 rules if commits or PRs are part of the task.
 
-Method sources: [Diátaxis](https://diataxis.fr/compass/),
+Foundational method links (full credits in the expert map): [Diátaxis](https://diataxis.fr/compass/),
 [applying it incrementally](https://diataxis.fr/how-to-use-diataxis/), and
 [Google's minimum viable documentation guidance](https://google.github.io/styleguide/docguide/best_practices.html).
