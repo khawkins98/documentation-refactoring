@@ -6,6 +6,9 @@ and [Diátaxis #658](https://github.com/khawkins98/scriptoscope/pull/658).
 These are observations from a particular draft and baseline, not universal targets
 or a claim that all changes shipped.
 
+The consolidated PR subsequently [merged as `50ef272`](https://github.com/khawkins98/scriptoscope/commit/50ef27259c11b17e12d8da598d840cf400f211dd).
+The measurements below remain the recorded draft snapshot.
+
 ## Outcomes at the recorded baseline
 
 The README was 10,874 words. Independent drafts tried preserving depth in separate

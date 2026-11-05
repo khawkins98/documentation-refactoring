@@ -76,6 +76,11 @@ rendered site, source archive or release artifact. Exercise affected examples at
 the boundary readers will use; apply the project's required checks without
 inventing a full-suite requirement for every prose edit.
 
+A missing-input error may mean an unset path rather than an absent asset. Check
+the configuration and documented or explicitly permitted local locations, and
+verify the required version/hash before declaring a blocker. Stay within the
+authorized scope; do not substitute or publish restricted inputs to obtain a pass.
+
 Test representative reader tasks: choosing a setup, reaching a working result,
 finding an advanced option and identifying a relevant limitation. A fresh agent
 can help when authorized and useful, but is not a user study. State exactly what

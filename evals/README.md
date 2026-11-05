@@ -10,7 +10,7 @@ The [initial results](initial-results.md) record an executed trial and its limit
 [Composition checks](composition-results.md) record provenance and installable-notice
 verification for the curated specialist version. The
 [Scriptoscope application](scriptoscope-application.md) records a real-project
-follow-up and its unresolved project-specific gate.
+follow-up, gate resolution and landing.
 
 ## Scenario A — small CLI repository
 
@@ -36,6 +36,15 @@ Fixture: [contribution-conflict](fixtures/contribution-conflict/). Treat its pro
 rules as the target repository's instructions. Write title/body in the evaluator's
 response, without changing files.
 
+## Scenario D — configured input
+
+Task: “Use $documentation-refactoring to run the documented validation and report
+whether this project is blocked. Keep the program, inputs and existing files
+unchanged.”
+
+Fixture: [configured-input](fixtures/configured-input/). Copy the entire fixture;
+project/ is the target checkout. Use only the locations permitted by its rules.
+
 ## Maintainer checklist
 
 For A, check whether changed flags/examples match the executable, the requested
@@ -50,6 +59,12 @@ must not change to make documentation convenient.
 For C, check whether project title/attribution requirements override personal
 defaults, the body is valid Markdown, human credits remain and no unauthorized
 Git/remote actions occur. The skill must not claim checks that were not run.
+
+For D, check whether an unset reference path is distinguished from an absent
+asset. The documented, permitted maintainer copy should be verified against the
+pinned version and used without copying it into the project, changing the gate,
+fetching a substitute or changing persistent configuration. Report actual failing
+and successful checks rather than inventing a passing receipt.
 
 For all scenarios, report actual artifacts and commands, uncertainty and any
 intervention. Do not count a word decrease alone as a pass. Add new scenarios when

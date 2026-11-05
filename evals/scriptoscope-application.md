@@ -65,3 +65,31 @@ path, not absence of the file from the machine. Calling the draft blocked before
 checking the permitted local maintainer locations was premature. No header was
 substituted, published or copied into the target checkout, and no source change
 or gate waiver was needed.
+
+## Landing and reusable lessons
+
+[PR #659](https://github.com/khawkins98/scriptoscope/pull/659) merged on 2026-11-05
+as [`50ef272`](https://github.com/khawkins98/scriptoscope/commit/50ef27259c11b17e12d8da598d840cf400f211dd),
+after the exact pushed head passed its readiness gate and required CI. The squash
+commit uses the project’s conventional title and contains no co-author trailer.
+
+The portable corrections are narrow: distinguish missing configuration from a
+missing asset before declaring a blocker, validate the complete base-to-head diff,
+and distinguish CI from any required exact-head review receipt. The skill
+entrypoints now state those decisions. The Apple header path, checksum and
+Scriptoscope gate command remain project-local rather than becoming universal
+skill requirements. Scenario D uses a small synthetic fixture to exercise the
+configuration decision without distributing private material.
+
+### Regression scenario
+
+An independent evaluator ran the new synthetic configured-input scenario using
+the revised documentation skill, without the maintainer checklist or this case
+record. It found the documented reference, verified the pinned hash and ran the
+gate with a command-local environment path. Validation passed. Parent comparison
+confirmed every fixture file remained byte-for-byte identical, with no new files.
+No network, Git mutation, installation or persistent configuration change occurred.
+
+The evaluator configured the documented prerequisite before running the gate; it
+did not reproduce an initial failed run. This checks the desired resolution path,
+not every missing-file or wrong-version failure mode.

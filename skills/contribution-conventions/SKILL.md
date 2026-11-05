@@ -24,6 +24,10 @@ attribution and review requirements. Preserve unrelated work, existing human
 credits, licensing and historical commit metadata. Do not rewrite history to
 remove trailers or silently configure global Git behavior.
 
+Validate the final base-to-head diff, not only unstaged edits. If the project
+requires an exact-head readiness receipt, attach it for the final pushed candidate;
+passing CI or a clean working tree alone does not establish that requirement.
+
 ## Titles and commits
 
 When the project does not specify otherwise, use Conventional Commits for new
