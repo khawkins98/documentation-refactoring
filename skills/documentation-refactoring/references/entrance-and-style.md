@@ -27,6 +27,11 @@ relative links after relocation, and count new pages in the total. Explain the
 extra navigation cost. Do not pursue a percentage reduction by hiding critical
 limits, fragmenting a short explanation or deleting evidence.
 
+When the product also ships onboarding or help for the same task, compare those
+active instructions with the README. Correct conflicting labels, prerequisites
+and promises within scope, or report the remaining conflict. A complete producer
+path can still leave a new recipient unable to install, open or restore a result.
+
 ## Apply the prose criteria
 
 Review changed prose against these defaults, honoring project/user style and

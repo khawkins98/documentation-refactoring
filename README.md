@@ -68,14 +68,8 @@ not by collecting a checklist for every past incident.
 distribution and contribution-rule conflicts. They complement syntax validation;
 they do not prove the skill works in every project.
 
-The [Scriptoscope case study](skills/documentation-refactoring/references/scriptoscope-lessons.md)
-records where the method was tried and distinguishes reusable lessons from local
-packaging and browser-lifecycle findings. The [Johnny Web application](evals/johnny-web-application.md)
-records a second real-repository trial, semantic helper failures and validation
-limits. The [Hush follow-up](evals/hush-application.md) records why contributor
-cleanup alone was insufficient and how entrance placement/style guidance changed.
-The [PDF-A-go-go trial](evals/pdf-a-go-go-application.md) distinguishes local
-example/dependency substitutions from hosted and clean-install validation.
+The [evaluation index](evals/README.md) links real-project applications and
+synthetic scenario results, including their interventions and validation limits.
 These applications are not held-out benchmarks.
 
 ## License

@@ -6,17 +6,18 @@ agent only the task below and the named skill. Keep the maintainer checklist out
 of its prompt. Inspect the resulting files and tool actions; a plausible plan is
 not evidence that the workflow succeeded.
 
-The [initial results](initial-results.md) record an executed trial and its limits.
-[Composition checks](composition-results.md) record provenance and installable-notice
-verification for the curated specialist version. The
-[Scriptoscope application](scriptoscope-application.md) records a real-project
-follow-up, gate resolution and landing. The [Johnny Web application](johnny-web-application.md)
-records wider documentation dogfooding and the [entrypoint scenario checks](changed-entrypoint-results.md)
-distinguish fixture execution from independent agent evaluation. The
-[Hush application](hush-application.md) records the entrance-review correction;
-[Scenario F smoke results](entrance-style-results.md) show its synthetic example.
-The [PDF-A-go-go application](pdf-a-go-go-application.md) records adapted-example
-validation, the clean-install resolution and independent source-review findings.
+Execution records state their inputs, interventions and validation limits:
+
+| Record | Evidence |
+| --- | --- |
+| [Initial results](initial-results.md) | Independent scoped skill trials |
+| [Composition checks](composition-results.md) | Provenance and installable notices |
+| [Scriptoscope application](scriptoscope-application.md) | Real-project trial, gate resolution and landing |
+| [Johnny Web application](johnny-web-application.md) | Repository-wide dogfooding and semantic helper failures |
+| [Entrypoint scenario](changed-entrypoint-results.md) | Maintainer fixture execution and partial validation |
+| [Hush application](hush-application.md) · [Entrance/style scenario](entrance-style-results.md) | Entrance-review correction and maintainer smoke example |
+| [PDF-A-go-go application](pdf-a-go-go-application.md) | Adapted examples, clean-install resolution and independent source review |
+| [Pinment application](pinment-application.md) | Recipient/fallback review, bounded independent skill exercise and local browser checks |
 
 ## Scenario A — small CLI repository
 

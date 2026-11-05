@@ -93,8 +93,10 @@ authorized scope; do not substitute or publish restricted inputs to obtain a pas
 
 Test representative reader tasks: choosing a setup, reaching a working result,
 finding an advanced option and identifying a relevant limitation. A fresh agent
-can help when authorized and useful, but is not a user study. State exactly what
-was checked and what remains uncertain. Distinguish command success from the
+can help when authorized and useful, but is not a user study. For handoffs, check
+each participant's prerequisites and how the recipient opens or restores the
+result; an export command alone does not establish a usable fallback. State exactly
+what was checked and what remains uncertain. Distinguish command success from the
 capabilities exercised: inspect skips and review-only warnings before claiming
 validation. Synthetic fixtures and historical results keep their own conditions;
 they do not establish current live behavior. Record validation substitutions,
