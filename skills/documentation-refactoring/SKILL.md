@@ -60,6 +60,13 @@ uncertainty rather than quietly choosing whichever source makes rewriting easies
 - Prefer links to maintained inventories and release records over copied counts,
   rolling implementation status and recaps of every recent change.
 
+For README work or a broad pass, assess the entrance explicitly: choose what
+stays, moves or shortens, and explain an unchanged README. Apply the placement
+and prose criteria in [entrance and style review](references/entrance-and-style.md)
+when editing an entrance or polishing prose. Treat unresolved duplication,
+unsupported claims and lost reader limits/credits as findings to resolve or report;
+a shorter page or a passing link check alone does not establish editorial quality.
+
 For a larger sweep, read [repository-wide work](references/repository-wide.md).
 For a focused edit, the guidance here is sufficient.
 

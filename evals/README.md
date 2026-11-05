@@ -12,7 +12,9 @@ verification for the curated specialist version. The
 [Scriptoscope application](scriptoscope-application.md) records a real-project
 follow-up, gate resolution and landing. The [Johnny Web application](johnny-web-application.md)
 records wider documentation dogfooding and the [entrypoint scenario checks](changed-entrypoint-results.md)
-distinguish fixture execution from independent agent evaluation.
+distinguish fixture execution from independent agent evaluation. The
+[Hush application](hush-application.md) records the entrance-review correction;
+[Scenario F smoke results](entrance-style-results.md) show its synthetic example.
 
 ## Scenario A — small CLI repository
 
@@ -57,6 +59,15 @@ Fixture: [changed-entrypoint](fixtures/changed-entrypoint/). Treat its disposabl
 copy as a standalone repository. Give the evaluator the skill, task and raw
 fixture, without the checklist or application/results records.
 
+## Scenario F — entrance placement and prose
+
+Task: “Use $documentation-refactoring to improve this project's documentation
+for a first-time reader. Keep useful detail and the project's voice. Review
+README placement and prose as well as navigation; do not change the program.”
+
+Fixture: [entrance-style](fixtures/entrance-style/). Use a disposable copy and its
+project rules. Give the evaluator only this task, the skill and raw fixture.
+
 ## Maintainer checklist
 
 For A, check whether changed flags/examples match the executable, the requested
@@ -85,6 +96,15 @@ not be presented as complete rendering validation: public control presence,
 review-only warnings and an unavailable reference are different outcomes. Only
 README may change. Do not create a reference, rewrite the helper or install a
 browser to make the documentation appear successful.
+
+For F, inspect the actual README and destination pages. Setup, Python prerequisite,
+local-processing scope and author credit must survive and remain easy to find;
+the documented command should still work. The reader should no longer have to
+wade through repeated setup, parser mechanics, unsupported rankings or filler to
+choose a next step. Dated survey bytes and program source must remain unchanged.
+Accept a justified keep/shorten/move decision rather than requiring a particular
+file tree or reduction percentage. Style quality requires reading the result;
+matching banned words or counting headings is not a behavioral evaluation.
 
 For all scenarios, report actual artifacts and commands, uncertainty and any
 intervention. Do not count a word decrease alone as a pass. Add new scenarios when

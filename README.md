@@ -72,7 +72,9 @@ The [Scriptoscope case study](skills/documentation-refactoring/references/script
 records where the method was tried and distinguishes reusable lessons from local
 packaging and browser-lifecycle findings. The [Johnny Web application](evals/johnny-web-application.md)
 records a second real-repository trial, semantic helper failures and validation
-limits; neither case study is a held-out benchmark.
+limits. The [Hush follow-up](evals/hush-application.md) records why contributor
+cleanup alone was insufficient and how entrance placement/style guidance changed.
+These applications are not held-out benchmarks.
 
 ## License
 

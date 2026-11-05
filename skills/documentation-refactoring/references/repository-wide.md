@@ -12,7 +12,9 @@ building the inventory; a repository-wide assignment does not erase role gates.
 Identify reader paths and competing accounts. Choose where each maintained
 explanation lives, then route readers there. Reuse existing pages when they fit.
 A small task index can connect families without making the README exhaustive.
-Avoid a catalog that becomes another detailed description to maintain.
+Avoid a catalog that becomes another detailed description to maintain. Include an
+explicit entrance placement/style decision using [the editorial criteria](entrance-and-style.md);
+cleaning contributor files alone does not establish that the README serves its reader.
 
 Apply the smallest useful intervention to each family:
 
