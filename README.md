@@ -74,6 +74,8 @@ packaging and browser-lifecycle findings. The [Johnny Web application](evals/joh
 records a second real-repository trial, semantic helper failures and validation
 limits. The [Hush follow-up](evals/hush-application.md) records why contributor
 cleanup alone was insufficient and how entrance placement/style guidance changed.
+The [PDF-A-go-go trial](evals/pdf-a-go-go-application.md) distinguishes local
+example/dependency substitutions from hosted and clean-install validation.
 These applications are not held-out benchmarks.
 
 ## License

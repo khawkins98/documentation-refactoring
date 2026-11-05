@@ -15,6 +15,8 @@ records wider documentation dogfooding and the [entrypoint scenario checks](chan
 distinguish fixture execution from independent agent evaluation. The
 [Hush application](hush-application.md) records the entrance-review correction;
 [Scenario F smoke results](entrance-style-results.md) show its synthetic example.
+The [PDF-A-go-go application](pdf-a-go-go-application.md) records adapted-example
+validation, the clean-install resolution and independent source-review findings.
 
 ## Scenario A — small CLI repository
 

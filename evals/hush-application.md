@@ -1,9 +1,9 @@
 # Hush application and entrance review — 2026-11-05
 
-[Hush #1027](https://github.com/khawkins98/Hush/pull/1027) is a draft application of
+[Hush #1027](https://github.com/khawkins98/Hush/pull/1027) began as a draft application of
 this collection to a desktop app's documentation. Its initial candidate was
 `d8dc8e2851eeafce777562ca72350d7d430fee54`. This is maintainer dogfooding, not a
-held-out benchmark or independent user study. The PR remains a draft.
+held-out benchmark or independent user study. The original trial was recorded while the PR was a draft; see the landing follow-up below.
 
 ## Initial outcome and missed scope
 
@@ -67,3 +67,12 @@ records, runtime source and required attribution policies remain untouched.
 synthetic entrance/style task. Its [smoke record](entrance-style-results.md)
 distinguishes a maintainer-authored correction from a future independent skill
 trial.
+
+## Landing follow-up
+
+The user subsequently authorized landing. Hush #1027 merged as
+[`3050373`](https://github.com/khawkins98/Hush/commit/3050373f40d4413ac7c5af3162499a1eb2195af4)
+on 2026-11-05. The merged tree was verified identical to the reviewed candidate.
+Local frontend, formatting and lint checks passed; the documentation-only CI
+filter supplied no separate runtime coverage. Earlier screenshot limits above
+remain part of the record.

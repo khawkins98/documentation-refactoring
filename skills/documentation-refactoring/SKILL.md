@@ -97,7 +97,9 @@ can help when authorized and useful, but is not a user study. State exactly what
 was checked and what remains uncertain. Distinguish command success from the
 capabilities exercised: inspect skips and review-only warnings before claiming
 validation. Synthetic fixtures and historical results keep their own conditions;
-they do not establish current live behavior.
+they do not establish current live behavior. Record validation substitutions,
+such as reused dependencies instead of a fresh install or local assets/URLs
+instead of the published example; report which original boundaries remain untested.
 
 For broad cleanups, report both entrance-page size and total documentation change,
 including added files and relocated material. Counts diagnose growth; they are
