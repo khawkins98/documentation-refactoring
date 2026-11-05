@@ -8,7 +8,9 @@ not evidence that the workflow succeeded.
 
 The [initial results](initial-results.md) record an executed trial and its limits.
 [Composition checks](composition-results.md) record provenance and installable-notice
-verification for the curated specialist version.
+verification for the curated specialist version. The
+[Scriptoscope application](scriptoscope-application.md) records a real-project
+follow-up and its unresolved project-specific gate.
 
 ## Scenario A — small CLI repository
 
