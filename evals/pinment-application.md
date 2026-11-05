@@ -5,7 +5,7 @@ Applied the skill at `baa9a3eaf44fcd1296576d9cd4850dfc423f971f` to
 `b1156c0ebcd0dd999eae225658a4c82c7dea35aa`. The initial trial produced
 `ef479f9202623e9be55117f444c6bcaaeefa40ba`; the reviewed revision is
 [`4666c59`](https://github.com/khawkins98/pinment/commit/4666c59).
-The PR remains a draft. This is same-project dogfooding, source review and a
+That reviewed revision was a draft. This is same-project dogfooding, source review and a
 bounded independent follow-up, not a held-out benchmark or reader study.
 
 ## Placement and the review correction
@@ -134,3 +134,10 @@ The production build, 15 local links and whitespace checks pass. Both skill
 validators and 60 local skill-repository links pass. This prose correction was
 manually reviewed against the existing entrance criteria; no new independent
 evaluation or browser-compatibility result is claimed.
+
+## Landing
+
+At the maintainer's request, [PR #22](https://github.com/khawkins98/pinment/pull/22)
+merged as [`5ed1d2d`](https://github.com/khawkins98/pinment/commit/5ed1d2def7fee0fe44e3c2d1fc7ee5b9a7d64ca1)
+on 2026-11-05 after final-head CI passed. The merge was constrained to the reviewed
+`b578b3d` head; comparing its tree with the merged `main` found no differences.
