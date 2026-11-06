@@ -16,7 +16,7 @@ instead of treating an unchanged README as evidence of a completed entrance revi
 | Material | Placement decision |
 | --- | --- |
 | What this is, who it helps, first success | Keep the concise explanation and complete setup/download path at the entrance. |
-| Adoption limits, prerequisites, access/privacy/platform caveats | Keep what readers need before choosing or starting; link the detailed contract. |
+| Adoption limits, prerequisites, access/privacy/platform caveats | Summarize what changes the choice to use the tool or the first task. Put actionable caveats beside the affected step; link detailed compatibility and troubleshooting guidance. |
 | Competitor tables, pricing or a dated survey | Summarize why the project exists; use a clearly dated comparison page if the survey remains useful. Moving it does not refresh its claims. |
 | Detailed implementation, endpoint inventories, audit commands | Route to an existing technical/privacy guide; create one only for a concrete reader task. |
 | Personal origin and acknowledgements | Preserve the project's voice and visible credit. Longer provenance can move with an obvious link; required notices and source-use restrictions must survive. |
@@ -26,6 +26,11 @@ Update the destination before removing the old account. Check inbound anchors an
 relative links after relocation, and count new pages in the total. Explain the
 extra navigation cost. Do not pursue a percentage reduction by hiding critical
 limits, fragmenting a short explanation or deleting evidence.
+
+For each discovered detail, identify the decision or action it changes. First use
+needs a complete path, not an explanation of every option and failure mode.
+Route later lookup to its maintained home. Review findings and validation logs
+are evidence for the change; they need not all become user-facing guidance.
 
 When the product also ships onboarding or help for the same task, compare those
 active instructions with the README. Correct conflicting labels, prerequisites
@@ -37,20 +42,18 @@ path can still leave a new recipient unable to install, open or restore a result
 Review changed prose against these defaults, honoring project/user style and
 required wording:
 
-- Keep clear, accurate wording unless an edit solves an identifiable reader
-  problem. A more technically specific paraphrase alone does not justify a change;
-  check whether it actually improves understanding.
+- Make the smallest edit that resolves the reader's problem. If one format,
+  label or clause is wrong, correct that part before rewriting a working paragraph.
+  Preserve its surrounding voice and meaning.
 - Lead with the result or action. Use concrete nouns, active verbs and direct
   instructions; remove introductory throat-clearing and sentences that merely
   explain that documentation is about to explain something.
 - Give each paragraph one purpose. Remove repeated product promises, duplicate
   setup advice, unsupported superlatives and promotional comparisons. Preserve
   useful personal voice; do not turn every project into generic product copy.
-- Keep product pitches clear and memorable. Distinguish ordinary shorthand from
-  a compatibility or security guarantee. Put practical caveats beside the affected
-  task; qualify the headline when needed to prevent a material misconception.
-  Avoid weakening useful phrasing merely to state obvious prerequisites or cover
-  every technical exception.
+- Keep product pitches clear and memorable. Qualify them to prevent a material
+  misconception, with supporting detail beside the relevant task. Ordinary product
+  shorthand does not require an exhaustive compatibility statement.
 - Prefer a positive, precise statement to rhetorical contrasts and reassurance
   about unrequested alternatives. Name actual limits rather than adding vague
   promises such as “seamless”, “robust” or “fully secure”.
@@ -67,6 +70,8 @@ Unresolved duplicate active instructions, unsupported claims, lost material
 caveats/credit, and a README section with no useful role are review findings to
 fix before delivery, or explicitly report when scope/authority prevents a fix.
 Resolve style findings in changed prose, or explain the project/scope exception.
-Perform a final prose read after moving content; a link/word-count check cannot
-establish style. State what improved and any intentional exception. Avoid adding
+Compare the original and revised opening and first task side by side. Keep broader
+rewrites when they improve understanding or action; check the timing of caveats
+and route duplicate explanations to their maintained home. Link/word-count checks
+cannot establish style. State what improved and any intentional exception. Avoid
 keyword bans or prose tests that merely match the wording of these instructions.

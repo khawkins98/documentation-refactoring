@@ -54,6 +54,8 @@ uncertainty rather than quietly choosing whichever source makes rewriting easies
   pitch; place practical caveats where readers need them to act.
 - Update one authoritative explanation before adding another. Keep examples
   self-contained enough to run, but link exhaustive options and background.
+  Route contributor and agent entrances to maintained setup/rules instead of
+  copying them, retaining any instructions required at those entrypoints.
   Merge duplicate accounts and retire obsolete active advice.
 - Review material as keep, move, merge, delete or verify. Move it only when the
   destination serves an identifiable need. Do not bury prerequisites, cleanup,
