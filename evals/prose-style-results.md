@@ -63,11 +63,31 @@ The maintainer also applied the documentation skill to the full PR: entrance
 placement, prose, sources, licensing and reader paths. This informed self-review
 trimmed a repeated opening claim and kept the practical before/after ahead of
 installation, with author credits and maintained specialist detail still routed
-to their existing homes. The README grows from 361 to 493 words to add the
-requested example and personal framing; no separate prose skill is introduced.
+to their existing homes. At `a25afe2`, the README grew from 361 to 493 words to
+add the requested example and personal framing; no separate prose skill was introduced.
 
-The Tidy example's unsupported flags, dry run, unchanged files and actual overwrite
-were checked in a disposable fixture copy. Both skills pass the system
+The initial synthetic Tidy example's unsupported flags, dry run, unchanged files
+and actual overwrite were checked in a disposable fixture copy. Both skills pass the system
 `/Users/khawkins/.codex/skills/.system/skill-creator/scripts/quick_validate.py`.
 Local Markdown paths/anchors and full-diff whitespace checks pass. These checks
 do not constitute a user study or rerun earlier real-project applications.
+
+## Red-team review and real example follow-up
+
+An independent agent reviewed the complete PR at `a25afe2`, with its diff, context
+and evidence. This was an informed red-team review, not a blind skill trial.
+It found no actionable issues. It verified the retained Scenario H output and
+hashes, frozen package, source provenance, Tidy behavior, validators and local
+links. It did not independently replay Scenario H or verify the historical
+execution transcript or isolation.
+
+The user then requested a real example. The README now summarizes the merged
+[Hush #1027 change](https://github.com/khawkins98/Hush/commit/3050373f40d4413ac7c5af3162499a1eb2195af4)
+instead of the synthetic Tidy repair. The maintainer checked section placement
+and retained content against the actual before/merged README. The existing
+[Hush record](hush-application.md) supplies counts, validation and limitations.
+This is an earlier application of the skill, not a fresh run of the revised
+prose pass. The revised skill was applied to this PR through maintainer
+self-review, including the new example's placement, clarity and source support.
+The same reviewer independently verified the Hush sources and summaries in a
+follow-up review; no substantive findings remained.

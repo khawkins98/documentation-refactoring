@@ -23,26 +23,20 @@ inspiration, adaptation and direct reuse.
 
 ## Before and after
 
-A small illustrative repair, based on the [synthetic Tidy fixture](evals/fixtures/small-cli/):
+An earlier application to [Hush, a local transcription app](https://github.com/khawkins98/Hush/pull/1027)
+shows how the skill changes a real README. These are summaries of the
+[merged change](https://github.com/khawkins98/Hush/commit/3050373f40d4413ac7c5af3162499a1eb2195af4):
 
-**Before**
+| Before | After |
+| --- | --- |
+| Installation followed a competitor survey and detailed privacy audit. | Installation follows the product overview, with first-launch warnings and a route to the walkthrough. |
+| The comparison table and network audit lived in the README. | Short summaries link to a dated comparison and a maintained privacy guide. |
+| Extended acknowledgements filled the README. | Visible credits remain, with full attribution and source-use details in a linked guide. |
 
-> Use `--force` to overwrite a file. You can preview with `--check`.
-
-**After**
-
-> With Python 3 and an existing `input.txt`, run:
->
-> ```sh
-> python3 tidy.py input.txt --output clean.txt --dry-run
-> ```
->
-> It prints `Would write clean.txt` without changing files. Remove `--dry-run` to
-> write the cleaned text; an existing `clean.txt` is replaced.
-
-The revised instructions use supported flags, show the expected result and explain
-what gets overwritten. Broader passes also consolidate duplicate explanations and
-give detailed reference material a maintained home.
+The README went from 1,999 to 613 words while keeping its personal opening,
+platform limits, privacy caveats and visible credits. The
+[trial record](evals/hush-application.md) explains what moved, what was checked
+and the limits of those checks.
 
 ## Use
 
