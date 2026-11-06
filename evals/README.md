@@ -18,7 +18,7 @@ Execution records state their inputs, interventions and validation limits:
 | [Hush application](hush-application.md) · [Entrance/style scenario](entrance-style-results.md) | Entrance-review correction and maintainer smoke example |
 | [PDF-A-go-go application](pdf-a-go-go-application.md) | Adapted examples, clean-install resolution and independent source review |
 | [Pinment application](pinment-application.md) | Recipient/fallback review, bounded independent skill exercise and local browser checks |
-| [SVGOMG-Font comparison](svgomg-font-comparison.md) | Same-baseline context-informed and fresh-agent drafts; placement and validation tradeoffs |
+| [SVGOMG-Font comparison](svgomg-font-comparison.md) | Same-baseline trials, revised-skill fresh rerun and landing; placement and validation tradeoffs |
 
 ## Scenario A — small CLI repository
 

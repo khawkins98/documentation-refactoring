@@ -22,3 +22,44 @@ The sources remain credited inside each installable skill, rather than only in
 root repository files. No skills were installed into the maintainer's other
 projects or global skill directory. External source links, revisions and license
 evidence are recorded in the source maps; updating them requires another check.
+
+## Self-application — 2026-11-06
+
+At the maintainer's request, applied the skill to its own proposed PR after the
+SVGOMG-Font rerun landed. The repository inventory distinguishes the root user
+entrance, project contribution rules, two independently installable skills and
+their references/notices, source records, evaluation records and raw fixtures.
+The source/legal records, raw fixtures and earlier evidence stay in their roles.
+
+README keeps the project introduction, visible author credit, two-skill selection,
+installation, first invocation and license routes. The repeated specialist table
+is replaced by the existing expert-map routes; duplicate evaluation navigation is
+consolidated. CONTRIBUTING now records those maintained homes. README falls from
+528 to 346 whitespace-separated words. Total Markdown grows from 13,114 to
+13,668 words because the SVG rerun/landing and these checks add evidence.
+Specialist selection costs a reference click; first invocation remains at the
+entrance. Both installed entrypoints were reviewed and retained: their routing,
+authority and validation instructions remain useful, and each must carry its own
+credits/notices when installed alone. No instruction change was added merely
+because another application completed.
+
+Skills CLI 1.7.6 discovered exactly two skills with `skills add . --list`.
+Copy-mode installation from the local checkout into a disposable Git project,
+targeting Codex, installed both; `skills list --agent codex --json` confirmed
+project scope. Every installed source file matched its checkout bytes, including
+licenses, expert maps, instructions, metadata and the reused contribution table
+and upstream notice. No global or other-project installation was used.
+
+A direct draft-branch URL failed: the CLI interpreted `tree/feat/initial-skills`
+as branch `feat` and path `initial-skills`. That route is not recommended. The
+README's local-checkout source form works for the draft; the owner/repository
+form reads the default branch, where the skills become available when this PR
+merges. The check therefore establishes local packaging and discovery, not a
+successful default-branch install of the unmerged PR.
+
+Both skills pass the system skill-creator validator at
+`/Users/khawkins/.codex/skills/.system/skill-creator/scripts/quick_validate.py`;
+61 local documentation paths/anchors and full base-to-head whitespace
+checks pass. This was maintainer self-review and installation verification, not
+another independent skill-behavior test. Original licenses, source maps, third-
+party notices, reused artifacts, raw fixtures and prior evidence remain intact.

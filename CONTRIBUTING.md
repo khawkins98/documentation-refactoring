@@ -29,6 +29,13 @@ or publishing a release. Reviewers should look for scope expansion, lost contrac
 unverified claims, unnecessary permission loops and project-specific rules presented
 as universal methodology.
 
+## Maintaining this repository
+
+README owns skill selection, installation and first invocation. Keep specialist
+selection and operating detail in each installable skill and its references;
+use SOURCES and the expert maps for provenance, and the evaluation index for
+scenarios and results. Preserve required notices and dated evidence.
+
 ## Credit and reuse
 
 Treat this as a curated composition. Explain which specialist contributes to a

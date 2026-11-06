@@ -20,28 +20,20 @@ The skills are independent. Documentation refactoring does not require the
 contribution skill, and neither grants permission to push, publish or merge.
 Project and user instructions take precedence over these defaults.
 
-## Choose the useful specialists
-
-| Need | Perspective we draw from |
-| --- | --- |
-| Distinguish learning, tasks, reference and explanation | Daniele Procida's Diátaxis; GitHub's documentation writer |
-| Find mixed purposes, duplicate accounts and navigation drift | Samuel Berthe's docs structure audit |
-| Fit a README to its audience and edit prose | Leonardo Flores / Softaworks' README and writing guidance |
-| Maintain a smaller, accurate documentation set | Google's documentation practices |
-| Check whether a fresh reader can use the result | Anthropic's coauthoring workflow; local evaluation fixtures |
-| Prepare contribution titles and descriptions | Conventional Commits; dmythro's git-commit reference; project preferences |
-
-Here, experts means specialist methods and source skills. One agent can apply the
-needed perspectives; multiple agents are optional when authorized. The collection
-is self-contained and does not automatically install or invoke external skills.
-
 ## Use
 
-Install one or both with the [Skills CLI](https://skills.sh/docs/cli):
+Use Node.js with npm/npx. Install one or both with the
+[Skills CLI](https://skills.sh/docs/cli):
 
 ```sh
 npx skills add khawkins98/documentation-refactoring --skill documentation-refactoring
 npx skills add khawkins98/documentation-refactoring --skill contribution-conventions
+```
+
+From a local checkout, use `.` as the source:
+
+```sh
+npx skills add . --skill documentation-refactoring
 ```
 
 You can also copy a selected skill folder to your agent's supported skills directory.
@@ -54,23 +46,15 @@ For example:
 > Keep the setup working, separate current instructions from historical records,
 > preserve required technical detail and verify the reader paths. Open a draft PR.
 
-The workflow scales down to a single page. It does not install a documentation
-framework, impose a folder tree or require an agent team.
+The workflow scales down to a single page and is self-contained. Selecting the
+specialist perspectives is covered in each skill's linked expert map.
 
 ## Develop the skills
 
-Edit the instructions in `skills/`. Keep the entrypoints short and load supporting
-references only when useful. Change rules in response to demonstrated behavior,
-not by collecting a checklist for every past incident.
-
-[CONTRIBUTING](CONTRIBUTING.md) describes how to review and evaluate changes.
-[Evaluation scenarios](evals/README.md) exercise scope, authority, historical records,
-distribution and contribution-rule conflicts. They complement syntax validation;
-they do not prove the skill works in every project.
-
-The [evaluation index](evals/README.md) links real-project applications and
-synthetic scenario results, including their interventions and validation limits.
-These applications are not held-out benchmarks.
+[CONTRIBUTING](CONTRIBUTING.md) covers edits, validation and source reuse.
+The [evaluation index](evals/README.md) links runnable scenarios and application
+records with their checks, interventions and limitations. Syntax checks and these
+same-project trials do not establish general effectiveness.
 
 ## License
 
