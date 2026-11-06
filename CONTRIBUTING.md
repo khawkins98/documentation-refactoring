@@ -56,9 +56,15 @@ methods or framing the project as a replacement born from others' inadequacy.
 - Place the original-project license, provenance and required upstream notices
   inside the installable skill that uses the material, with a root index for repository readers. Check that installation
   carries them. A root-only credit file does not travel with a selected skill.
-- Do not relabel upstream work as our original MIT text. The no-unsolicited-AI-
-  trailer preference never removes author credit, copyright or license notices.
+- Do not relabel upstream work as our original text or assign it our licences.
+  The no-unsolicited-AI-trailer preference never removes author credit, copyright
+  or license notices.
 
 When updating reused content, record the new revision, compare the local artifact
 with that source and recheck notices. Keep a small useful excerpt when sufficient;
 vendoring a whole manual merely for attribution creates unnecessary maintenance.
+
+Original prose contributions use CC BY 4.0; original code, configuration, fixture
+data and code/command examples use MIT. Follow the [licence map](LICENSING.md),
+preserve third-party exceptions and keep selected-skill copies of the notices
+complete when changing packaging.

@@ -25,7 +25,8 @@ is unclear, reference the source but do not copy its wording or artifacts until
 permission is established. The attribution files and required notice travel
 inside the installable skill folders; this root index is not their only record.
 
-Original project contributions use [MIT](LICENSE). Reused material keeps the terms
+Original prose uses [CC BY 4.0](LICENSE); code and examples use [MIT](LICENSE-MIT),
+as defined in the [licence map](LICENSING.md). Reused material keeps the terms
 identified in [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Public visibility,
 a directory's badge or another repository's top-level license alone is not a
 substitute for checking the actual material and any more-specific notices.

@@ -101,7 +101,7 @@ does not imply upstream endorsement. Initial repository sources reviewed
 - Upstream license: [CC BY-SA 4.0](https://github.com/evildmp/diataxis-documentation-framework/blob/957c09ca40b4a1edc23874f713e01937d50d54d5/LICENSE.rst).
 - Use: conceptual inspiration and source links. No website prose, diagrams or
   translations are reproduced here. A future textual adaptation must be reviewed
-  under its actual license rather than treated as our original MIT text.
+  under its actual license rather than treated as original project prose.
 
 ### Minimum viable documentation
 

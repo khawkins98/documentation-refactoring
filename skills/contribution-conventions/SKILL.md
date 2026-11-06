@@ -1,5 +1,6 @@
 ---
 name: contribution-conventions
+license: See LICENSING.md for CC-BY-4.0 prose, MIT code, and third-party terms.
 description: Prepare or review commit messages and PR titles and descriptions using project rules, Conventional Commit defaults and maintainer attribution preferences. Use for requested or already-authorized contribution preparation.
 ---
 

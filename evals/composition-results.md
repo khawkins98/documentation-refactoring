@@ -63,3 +63,32 @@ Both skills pass the system skill-creator validator at
 checks pass. This was maintainer self-review and installation verification, not
 another independent skill-behavior test. Original licenses, source maps, third-
 party notices, reused artifacts, raw fixtures and prior evidence remain intact.
+
+## CC BY prose and MIT code — 2026-11-06
+
+At the maintainer's explicit request, changed licensing from the all-MIT original
+project notice at `d14633b` to the material-level split in [LICENSING](../LICENSING.md).
+Original Markdown prose uses CC BY 4.0; original code, configuration, fixture data
+and code/command examples use MIT. Third-party material retains its own terms.
+The exact upstream table and notice are unchanged. Earlier records above describe
+the MIT packages inspected then; their claims and measurements were not rewritten.
+
+The CC legal text came from [Creative Commons' official plain-text source](https://creativecommons.org/licenses/by/4.0/legalcode.txt),
+reviewed 2026-11-06. Only trailing blank lines were normalized to one final newline;
+all legal text is retained. Bundled SHA-256:
+`9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94`.
+The MIT text retains Ken Hawkins's existing copyright and full permission notice.
+Root and selected skills each carry both full texts and a scope map. Skill metadata
+routes to that map; operating instruction bodies are unchanged.
+
+Skills CLI 1.7.6 independently installed each selected skill into a separate
+disposable Git project, targeting Codex in project scope and copy mode. Every
+source file matched the installed bytes: nine files for documentation-refactoring,
+eight for contribution-conventions. Both full texts and scope maps survived;
+their local links resolved, with no symlinks or dependency on another installed
+skill. The reused table and upstream notice stayed byte-identical. No global or
+other-project skill installation was performed.
+
+Both system skill-creator validators, local Markdown paths/anchors and full-diff
+whitespace checks pass. This verifies packaging and declared scope, not a new
+behavioral evaluation or legal opinion about third-party rights.

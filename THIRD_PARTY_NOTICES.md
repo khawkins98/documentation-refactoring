@@ -10,7 +10,8 @@ inside the installable contribution skill. Its
 [provenance record](skills/contribution-conventions/references/expert-map.md)
 identifies the immutable source revision, scope, hashes and unchanged status.
 
-The project's MIT copyright line does not claim authorship of this excerpt.
+Ken Hawkins's project notices do not claim authorship of this excerpt. Its MIT
+notice remains separate from the project's CC BY prose and MIT code grants.
 
 ## Method references
 

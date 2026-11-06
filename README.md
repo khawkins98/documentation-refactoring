@@ -58,6 +58,7 @@ same-project trials do not establish general effectiveness.
 
 ## License
 
-Original contributions: [MIT](LICENSE). Directly reused material retains its
-[upstream notices](THIRD_PARTY_NOTICES.md), including notices inside the installable
-skill. See [SOURCES](SOURCES.md) for exact relationships and reviewed revisions.
+Original prose uses [CC BY 4.0](LICENSE); code, executable fixtures and code/command
+examples use [MIT](LICENSE-MIT). The [licence map](LICENSING.md) defines the split.
+Third-party material retains its [upstream terms](THIRD_PARTY_NOTICES.md), and each
+installable skill carries its own licence map and both full texts.

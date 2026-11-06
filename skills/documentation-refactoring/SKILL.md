@@ -1,5 +1,6 @@
 ---
 name: documentation-refactoring
+license: See LICENSING.md for CC-BY-4.0 prose, MIT code, and third-party terms.
 description: Refactor existing repository documentation around reader tasks, correct stale instructions, consolidate duplicate explanations and verify affected reader paths. Use for README cleanup, documentation navigation or repository-wide maintenance, scaled to the requested scope.
 ---
 
