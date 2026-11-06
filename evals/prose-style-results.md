@@ -100,3 +100,30 @@ This prompted a narrow “show rather than tell” principle in the style refere
 use concrete examples when they clarify the point, prefer verified real material
 and label illustrative examples. This addition follows the frozen Scenario H
 trial; the README provides a maintainer application, not a new independent test.
+
+## Fresh application to the PR itself
+
+At the user's request, a new agent applied the skill from `4494a9b` to an isolated
+copy of that PR head, with the base tree and raw diff. It received no parent
+conversation, preferred edits or prior review conclusions as instructions. The
+target included its existing evaluation records as repository content, so this
+was a fresh-context application, not a held-out or blind benchmark.
+
+It added focused first-invocation examples for both independent skills in README
+and replaced the skill entrypoint's partial specialist catalogue with a descriptive
+route to the maintained expert map. It retained the pitch, personal framing,
+verbatim before/after example, credits and style criteria. Parent hash comparisons
+confirmed exactly two files changed, no files were added, and all other 71 target
+files plus the base and frozen skill were unchanged. Both edits were integrated
+byte-for-byte. README grows from 454 to 464 words; the two edited pages together
+shrink by 12 words. These counts describe the navigation tradeoff, not quality.
+
+The frozen style reference SHA-256 was
+`04e885ca58d73a3788a3d2a3d38207f8aeb71aa53973cd61cdfd3834000a2a70`;
+its entrypoint hash matches the Scenario H entrypoint above. The agent reported
+both skill validators passing, licensing-copy comparisons, 62 local link/anchor
+checks and added-line whitespace checks. The parent reran the validators and the
+repository's broader local-link/anchor and whitespace checks after integration.
+Installation, remote sources and behavioral scenarios were not rerun. The agent
+reported no network, installations, Git mutation or delegation. This establishes
+an inspectable self-application, not a general effectiveness claim.

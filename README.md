@@ -53,17 +53,20 @@ npx skills add . --skill documentation-refactoring
 ```
 
 You can also copy a selected skill folder to your agent's supported skills directory.
-Invoke `$documentation-refactoring` for the documentation task, and
-`$contribution-conventions` when preparing the requested contribution.
+After installation, ask your agent to work in the target repository. For a
+single-page documentation task:
 
-For example:
+> Use $documentation-refactoring to improve README.md for a first-time reader.
+> Keep the setup working, preserve required technical detail and verify the
+> reader paths.
 
-> Use $documentation-refactoring to improve this repository's documentation.
-> Keep the setup working, separate current instructions from historical records,
-> preserve required technical detail and verify the reader paths. Open a draft PR.
+When preparing a contribution:
 
-The workflow scales down to a single page and is self-contained. Selecting the
-specialist perspectives is covered in each skill's linked expert map.
+> Use $contribution-conventions to prepare a PR title and description for this
+> diff, following this repository's contribution rules. Report the checks run.
+
+Both skills are self-contained. Each skill's linked expert map explains its
+specialist perspectives.
 
 ## Develop the skills
 
