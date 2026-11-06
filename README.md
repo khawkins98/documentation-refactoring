@@ -1,9 +1,9 @@
 # Reader First
 
-A curated, mixture-of-experts-style collection of agent skills for maintaining
-repository documentation. It brings together established specialists in document
-structure, audience, prose, reader review and contribution conventions, with a
-small layer for selecting and applying their methods to a project.
+A curated collection of agent skills for maintaining repository documentation.
+It brings together established specialist methods for structure, audience, prose,
+reader review and contribution conventions, with a small layer for selecting and
+applying them to a project.
 
 The foundations belong to their authors: **Daniele Procida (Diátaxis), GitHub and
 awesome-copilot contributors, Samuel Berthe, Leonardo Flores / Softaworks, Google,
@@ -19,6 +19,29 @@ inspiration, adaptation and direct reuse.
 The skills are independent. Documentation refactoring does not require the
 contribution skill, and neither grants permission to push, publish or merge.
 Project and user instructions take precedence over these defaults.
+
+## Before and after
+
+A small illustrative repair, based on the [synthetic Tidy fixture](evals/fixtures/small-cli/):
+
+**Before**
+
+> Use `--force` to overwrite a file. You can preview with `--check`.
+
+**After**
+
+> With Python 3 and an existing `input.txt`, run:
+>
+> ```sh
+> python3 tidy.py input.txt --output clean.txt --dry-run
+> ```
+>
+> It prints `Would write clean.txt` without changing files. Remove `--dry-run` to
+> write the cleaned text; an existing `clean.txt` is replaced.
+
+The revised instructions use supported flags, show the expected result and explain
+what gets overwritten. Broader passes also consolidate duplicate explanations and
+give detailed reference material a maintained home.
 
 ## Use
 
