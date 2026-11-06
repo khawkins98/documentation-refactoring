@@ -81,7 +81,7 @@ hashes, frozen package, source provenance, Tidy behavior, validators and local
 links. It did not independently replay Scenario H or verify the historical
 execution transcript or isolation.
 
-The user then requested a real example. The README now summarizes the merged
+The user then requested a real example. At `bbde3c4`, the README summarized the merged
 [Hush #1027 change](https://github.com/khawkins98/Hush/commit/3050373f40d4413ac7c5af3162499a1eb2195af4)
 instead of the synthetic Tidy repair. The maintainer checked section placement
 and retained content against the actual before/merged README. The existing
@@ -91,3 +91,8 @@ prose pass. The revised skill was applied to this PR through maintainer
 self-review, including the new example's placement, clarity and source support.
 The same reviewer independently verified the Hush sources and summaries in a
 follow-up review; no substantive findings remained.
+
+The user preferred actual prose to a description of structural changes. The
+README example now quotes this project's opening at `6d937cf` and `a25afe2`, with
+immutable source links. The maintainer verified both excerpts against those
+commits. The explanatory table and word-count commentary were removed.

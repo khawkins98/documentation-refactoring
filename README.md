@@ -23,20 +23,18 @@ inspiration, adaptation and direct reuse.
 
 ## Before and after
 
-An earlier application to [Hush, a local transcription app](https://github.com/khawkins98/Hush/pull/1027)
-shows how the skill changes a real README. These are summaries of the
-[merged change](https://github.com/khawkins98/Hush/commit/3050373f40d4413ac7c5af3162499a1eb2195af4):
+From this README:
 
-| Before | After |
-| --- | --- |
-| Installation followed a competitor survey and detailed privacy audit. | Installation follows the product overview, with first-launch warnings and a route to the walkthrough. |
-| The comparison table and network audit lived in the README. | Short summaries link to a dated comparison and a maintained privacy guide. |
-| Extended acknowledgements filled the README. | Visible credits remain, with full attribution and source-use details in a linked guide. |
+**[Before](https://github.com/khawkins98/reader-first/blob/6d937cfcc60c923ba5a35920f67e45884f9b3e3d/README.md)**
 
-The README went from 1,999 to 613 words while keeping its personal opening,
-platform limits, privacy caveats and visible credits. The
-[trial record](evals/hush-application.md) explains what moved, what was checked
-and the limits of those checks.
+> A curated, mixture-of-experts-style collection of agent skills for maintaining
+> repository documentation. It brings together established specialists in document
+> structure, audience, prose, reader review and contribution conventions, with a
+> small layer for selecting and applying their methods to a project.
+
+**[After](https://github.com/khawkins98/reader-first/blob/a25afe268fbcafa940b302902927af851c23cacf/README.md)**
+
+> Two highly opinionated agent skills for contributions and documentation.
 
 ## Use
 
