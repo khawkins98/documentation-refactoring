@@ -10,7 +10,7 @@ Copyright (c) 2026 Ken Hawkins for original material.
   are configuration.
 
 For original prose, credit Ken Hawkins, link to
-[the project](https://github.com/khawkins98/documentation-refactoring) and
+[the project](https://github.com/khawkins98/reader-first) and
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), and indicate changes as
 the licence requires. Retain the MIT notice when reusing MIT material. Using the
 skill does not by itself change the target project's licence.

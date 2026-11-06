@@ -17,7 +17,7 @@ skill does not by itself change the target project's licence.
 ## Attribution and reuse
 
 For original prose, credit **Ken Hawkins**, link to
-[this project](https://github.com/khawkins98/documentation-refactoring) and
+[this project](https://github.com/khawkins98/reader-first) and
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), and indicate changes as
 the licence requires. The full legal text is in [LICENSE](LICENSE). For MIT
 material, retain its copyright and permission notice from [LICENSE-MIT](LICENSE-MIT).

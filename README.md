@@ -1,4 +1,4 @@
-# Documentation refactoring
+# Reader First
 
 A curated, mixture-of-experts-style collection of agent skills for maintaining
 repository documentation. It brings together established specialists in document
@@ -26,8 +26,8 @@ Use Node.js with npm/npx. Install one or both with the
 [Skills CLI](https://skills.sh/docs/cli):
 
 ```sh
-npx skills add khawkins98/documentation-refactoring --skill documentation-refactoring
-npx skills add khawkins98/documentation-refactoring --skill contribution-conventions
+npx skills add khawkins98/reader-first --skill documentation-refactoring
+npx skills add khawkins98/reader-first --skill contribution-conventions
 ```
 
 From a local checkout, use `.` as the source:
