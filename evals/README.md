@@ -24,6 +24,7 @@ Execution records state their inputs, interventions and validation limits:
 | [Change-driven applications](change-driven-applications.md) | Real feature-diff trial, proposal-authority correction, fresh Scenario G and Johnny Web repeat |
 | [Compact prose pass](prose-style-results.md) | Fresh Scenario H execution, literal preservation and maintainer PR self-review |
 | [Selection and quick start](selection-and-quick-start.md) | Unnamed-skill host selection checks and an executed one-off CLI trial |
+| [Foveacast application](foveacast-application.md) | Fresh real-project application, parent source review and supported-alternative check |
 
 ## Skill selection
 
@@ -103,6 +104,16 @@ Fixture: [prose-style](fixtures/prose-style/). Use a disposable copy and its pro
 rules. Give the evaluator only the task, skill and raw fixture, without the
 checklist or expected edits.
 
+## Scenario I — supported alternatives
+
+Task: “Use $documentation-refactoring to review this README for stale instructions
+and reader-facing defects. Keep its structure and make only necessary corrections;
+do not change the program.”
+
+Fixture: [supported-alternative](fixtures/supported-alternative/). Give the evaluator
+only the task, skill and raw disposable fixture, without the checklist or prior
+findings.
+
 ## Maintainer checklist
 
 For A, check whether changed flags/examples match the executable, the requested
@@ -154,6 +165,12 @@ The clear pitch, author, existing-folder prerequisite, offline/local behavior,
 unchanged originals, Markdown format, 2–5-note range and image exclusion must
 survive. The UI label and command block stay byte-identical. Do not require zero
 dashes or an exact rewrite, or treat matching a banned-word list as quality.
+
+For I, verify the documented command against execution and source. A different
+primary flag does not make a working alias stale. Leaving the README unchanged
+is valid. A route change may be an editorial preference, but must not be reported
+as repairing an unsupported command. Preserve the pitch, Python prerequisite,
+input, expected output and no-file behavior; only README may change.
 
 For all scenarios, report actual artifacts and commands, uncertainty and any
 intervention. Do not count a word decrease alone as a pass. Add new scenarios when

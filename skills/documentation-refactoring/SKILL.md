@@ -86,7 +86,8 @@ it is unnecessary for a focused edit.
 ## Verify the result
 
 Verify changed commands, names and claims against permitted source or executable
-examples. Check affected relative links, anchors, inbound references and
+examples. Before calling an instruction stale, check whether it remains a
+supported alternative. Check affected relative links, anchors, inbound references and
 agent-discovery files. Follow linked helpers far enough to establish that their
 current inputs and entrypoints support the documented task; a resolving link is
 insufficient. Repair defects within scope, or describe the limitation and route
