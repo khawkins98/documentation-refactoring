@@ -13,15 +13,14 @@ skill.
 
 ## Select the useful perspectives
 
-Combine the lenses the task needs: Diátaxis and GitHub's documentation writer for
-structure; Samuel Berthe's audit for information architecture; Leonardo Flores /
-Softaworks for audience and prose; Google for maintenance; and Anthropic's
-coauthoring workflow for fresh-reader checking. These are credited sources of the
-independently written synthesis, not claims of a new documentation framework.
-The [expert map and source records](references/expert-map.md) explain when each
-lens helps, reviewed revisions and source-license boundaries. Consult them when
-selecting a broad approach or checking provenance, not for every small correction.
-No external skill installation, agent team or remote fetch is required.
+Select the perspectives the reader's problem needs. The
+[expert map and source records](references/expert-map.md) match structure,
+navigation, audience, prose and review problems to the credited specialists and
+their local application. They also record reviewed revisions and source-license
+boundaries. Consult them when selecting a broad approach or checking provenance,
+not for every small correction. This workflow is an independently written
+synthesis of those sources. No external skill installation, agent team or remote
+fetch is required.
 
 ## Establish scope and authority
 

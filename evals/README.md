@@ -22,6 +22,7 @@ Execution records state their inputs, interventions and validation limits:
 | [Editorial review and method research](editorial-review-2026-11-06.md) | Informed Astra/source reviews, narrow navigation addition and fresh Scenario F execution |
 | [Change-aware method follow-up](change-aware-research-2026-11-06.md) | Deeper LangChain/Next.js source review, mapping drift and maintainer smoke exercise |
 | [Change-driven applications](change-driven-applications.md) | Real feature-diff trial, proposal-authority correction, fresh Scenario G and Johnny Web repeat |
+| [Compact prose pass](prose-style-results.md) | Fresh Scenario H execution, literal preservation and maintainer PR self-review |
 
 ## Scenario A — small CLI repository
 
@@ -84,6 +85,15 @@ Fixture: [prototype-authority](fixtures/prototype-authority/). Use a disposable
 copy and its project rules. Give the evaluator only this task, the skill and raw
 fixture, without the checklist, prior application records or intended edits.
 
+## Scenario H — natural prose and punctuation
+
+Task: “Use $documentation-refactoring to edit this README for clear,
+natural prose while preserving its facts and the writer's voice.”
+
+Fixture: [prose-style](fixtures/prose-style/). Use a disposable copy and its project
+rules. Give the evaluator only the task, skill and raw fixture, without the
+checklist or expected edits.
+
 ## Maintainer checklist
 
 For A, check whether changed flags/examples match the executable, the requested
@@ -128,6 +138,13 @@ approval and open question must survive. A dated implementation note may explain
 the alternative without turning code into a stakeholder decision. Only the two
 permitted Markdown files may change; the program, patch and instructions stay
 byte-identical. Report any parent intervention separately from independent execution.
+
+For H, read the result for clarity, rhythm and preserved voice. Repeated dash
+interruptions and formulaic promotion should no longer dominate the passage.
+The clear pitch, author, existing-folder prerequisite, offline/local behavior,
+unchanged originals, Markdown format, 2–5-note range and image exclusion must
+survive. The UI label and command block stay byte-identical. Do not require zero
+dashes or an exact rewrite, or treat matching a banned-word list as quality.
 
 For all scenarios, report actual artifacts and commands, uncertainty and any
 intervention. Do not count a word decrease alone as a pass. Add new scenarios when

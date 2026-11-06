@@ -1,24 +1,40 @@
 # Reader First
 
-A curated, mixture-of-experts-style collection of agent skills for maintaining
-repository documentation. It brings together established specialists in document
-structure, audience, prose, reader review and contribution conventions, with a
-small layer for selecting and applying their methods to a project.
+Two highly opinionated agent skills for contributions and documentation.
 
-The foundations belong to their authors: **Daniele Procida (Diátaxis), GitHub and
-awesome-copilot contributors, Samuel Berthe, Leonardo Flores / Softaworks, Google,
-Anthropic, dmythro and the Conventional Commits contributors**. The
-[source and reuse records](SOURCES.md) credit each contribution and distinguish
-inspiration, adaptation and direct reuse.
+I made these because I kept giving AI agents the same brief on every project,
+then cleaning up the results. They capture how I like to work so I can reuse
+those preferences instead of explaining them again.
 
 | Skill | Use it for |
 | --- | --- |
-| [documentation-refactoring](skills/documentation-refactoring/SKILL.md) | README cleanup, stale or duplicated guidance, repository-wide documentation maintenance |
-| [contribution-conventions](skills/contribution-conventions/SKILL.md) | Conventional commit/PR titles, clear review descriptions and maintainer attribution preferences |
+| [contribution-conventions](skills/contribution-conventions/SKILL.md) | My contribution defaults: Conventional Commits, focused PRs, and no unsolicited AI co-author trailers or tool signatures. |
+| [documentation-refactoring](skills/documentation-refactoring/SKILL.md) | The more broadly useful one: separate reader tasks, keep explanations in maintained homes, fix stale guidance and give prose a light style pass. |
 
-The skills are independent. Documentation refactoring does not require the
-contribution skill, and neither grants permission to push, publish or merge.
-Project and user instructions take precedence over these defaults.
+Use either skill on its own or adapt it to your project. Project and user
+instructions take precedence over my defaults. Neither skill grants permission
+to push, publish or merge.
+
+The foundations belong to their authors: **Daniele Procida (Diátaxis), GitHub and
+awesome-copilot contributors, Samuel Berthe, Leonardo Flores / Softaworks, Google,
+Anthropic, Siqi Chen (Humanizer), dmythro and the Conventional Commits contributors**.
+The [source and reuse records](SOURCES.md) credit each contribution and distinguish
+inspiration, adaptation and direct reuse.
+
+## Before and after
+
+From this README:
+
+**[Before](https://github.com/khawkins98/reader-first/blob/6d937cfcc60c923ba5a35920f67e45884f9b3e3d/README.md)**
+
+> A curated, mixture-of-experts-style collection of agent skills for maintaining
+> repository documentation. It brings together established specialists in document
+> structure, audience, prose, reader review and contribution conventions, with a
+> small layer for selecting and applying their methods to a project.
+
+**[After](https://github.com/khawkins98/reader-first/blob/a25afe268fbcafa940b302902927af851c23cacf/README.md)**
+
+> Two highly opinionated agent skills for contributions and documentation.
 
 ## Use
 
@@ -37,17 +53,20 @@ npx skills add . --skill documentation-refactoring
 ```
 
 You can also copy a selected skill folder to your agent's supported skills directory.
-Invoke `$documentation-refactoring` for the documentation task, and
-`$contribution-conventions` when preparing the requested contribution.
+After installation, ask your agent to work in the target repository. For a
+single-page documentation task:
 
-For example:
+> Use $documentation-refactoring to improve README.md for a first-time reader.
+> Keep the setup working, preserve required technical detail and verify the
+> reader paths.
 
-> Use $documentation-refactoring to improve this repository's documentation.
-> Keep the setup working, separate current instructions from historical records,
-> preserve required technical detail and verify the reader paths. Open a draft PR.
+When preparing a contribution:
 
-The workflow scales down to a single page and is self-contained. Selecting the
-specialist perspectives is covered in each skill's linked expert map.
+> Use $contribution-conventions to prepare a PR title and description for this
+> diff, following this repository's contribution rules. Report the checks run.
+
+Both skills are self-contained. Each skill's linked expert map explains its
+specialist perspectives.
 
 ## Develop the skills
 

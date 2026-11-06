@@ -1,0 +1,129 @@
+# Compact prose pass — 2026-11-06
+
+## Change and source
+
+The documentation skill adds a small prose pass within its existing entrance/style
+reference. It favors natural rhythm, concrete claims and the writer's existing
+voice. Ken Hawkins's punctuation preference generally avoids em dashes, with
+exceptions when they help; quotations, UI labels and code retain their wording.
+The independently installable contribution skill includes that punctuation
+preference for PR descriptions, without depending on the documentation skill.
+
+Siqi Chen's Humanizer provided conceptual inspiration. The installed
+[source record](../skills/documentation-refactoring/references/expert-map.md#compact-prose-pass)
+pins revision `0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0`, version 3.1.0, and its
+MIT licence. The maintainer inspected the skill, licence and repository notices.
+No upstream prose or examples were imported. Its full pattern catalogue, strict
+dash rule and multi-stage output workflow were not adopted.
+
+## Fresh Scenario H execution
+
+A new agent received only the [Scenario H](README.md#scenario-h--natural-prose-and-punctuation)
+task, frozen installable skill and raw fixture in a disposable workspace. It had
+no parent history, checklist, intended rewrite or source-research conclusions.
+No intervention was needed. The agent reported no network, installation, Git
+mutation or delegation. File-inventory and SHA-256 comparisons confirmed that
+only the copied README changed; instructions and all nine skill files remained
+byte-identical, with no additions.
+
+The maintainer read the actual diff. The result removes unsupported promotion and
+staged opening/closing lines, retains the short pitch and personal origin, and
+replaces repeated dash interruptions with direct export instructions:
+
+> Choose an output folder that already exists, then select "Export — local files".
+> Fieldpad writes Markdown files and leaves your original notes unchanged. It works
+> offline and makes no uploads. An export can contain 2–5 notes and does not include
+> images.
+
+The existing-folder prerequisite, Markdown format, unchanged originals, offline
+behavior, no-upload claim, note range and image exclusion survive. The maintainer
+also compared the quoted UI label and fenced command byte-for-byte and checked
+the unchanged tagline and Dana Example credit. No program was run: this is a
+synthetic prose fixture, not an installed app. Its 120-to-78-word change describes
+the artifact; it is not the quality criterion.
+
+Frozen inputs and resulting README, SHA-256:
+
+| Artifact | Hash |
+| --- | --- |
+| Skill entrypoint | `444ee0e68920405f9c93944c9b7688f261db0073092f694787e5122bcff4a949` |
+| Entrance/style reference | `a1921eb827e7dc6e5f49998f59836603d6202a2002f42188f778d439df60449d` |
+| Raw README | `a1a8e5b7c4ad73d38de5b4c44e3ce1871ec035b9be2f7be9ddddfface285464f` |
+| Project instructions | `efffa4d3ef9709235dd98fcb5eccd3920e7123f1f4f9f9aef57ec6706b6525dc` |
+| Result README | `88124f008fc7d094370c8919207a23a7615aac741e1af37cf82d61a9c11a2d0a` |
+
+This is one conspicuous synthetic example, not evidence of general effectiveness
+or causal improvement over the old skill. It checks literal punctuation retention,
+but does not establish judgment about a useful em dash in ordinary prose. There
+is no zero-dash requirement, banned-word score or exact expected rewrite.
+
+## Maintainer application to this PR
+
+The maintainer also applied the documentation skill to the full PR: entrance
+placement, prose, sources, licensing and reader paths. This informed self-review
+trimmed a repeated opening claim and kept the practical before/after ahead of
+installation, with author credits and maintained specialist detail still routed
+to their existing homes. At `a25afe2`, the README grew from 361 to 493 words to
+add the requested example and personal framing; no separate prose skill was introduced.
+
+The initial synthetic Tidy example's unsupported flags, dry run, unchanged files
+and actual overwrite were checked in a disposable fixture copy. Both skills pass the system
+`/Users/khawkins/.codex/skills/.system/skill-creator/scripts/quick_validate.py`.
+Local Markdown paths/anchors and full-diff whitespace checks pass. These checks
+do not constitute a user study or rerun earlier real-project applications.
+
+## Red-team review and real example follow-up
+
+An independent agent reviewed the complete PR at `a25afe2`, with its diff, context
+and evidence. This was an informed red-team review, not a blind skill trial.
+It found no actionable issues. It verified the retained Scenario H output and
+hashes, frozen package, source provenance, Tidy behavior, validators and local
+links. It did not independently replay Scenario H or verify the historical
+execution transcript or isolation.
+
+The user then requested a real example. At `bbde3c4`, the README summarized the merged
+[Hush #1027 change](https://github.com/khawkins98/Hush/commit/3050373f40d4413ac7c5af3162499a1eb2195af4)
+instead of the synthetic Tidy repair. The maintainer checked section placement
+and retained content against the actual before/merged README. The existing
+[Hush record](hush-application.md) supplies counts, validation and limitations.
+This is an earlier application of the skill, not a fresh run of the revised
+prose pass. The revised skill was applied to this PR through maintainer
+self-review, including the new example's placement, clarity and source support.
+The same reviewer independently verified the Hush sources and summaries in a
+follow-up review; no substantive findings remained.
+
+The user preferred actual prose to a description of structural changes. The
+README example now quotes this project's opening at `6d937cf` and `a25afe2`, with
+immutable source links. The maintainer verified both excerpts against those
+commits. The explanatory table and word-count commentary were removed.
+This prompted a narrow “show rather than tell” principle in the style reference:
+use concrete examples when they clarify the point, prefer verified real material
+and label illustrative examples. This addition follows the frozen Scenario H
+trial; the README provides a maintainer application, not a new independent test.
+
+## Fresh application to the PR itself
+
+At the user's request, a new agent applied the skill from `4494a9b` to an isolated
+copy of that PR head, with the base tree and raw diff. It received no parent
+conversation, preferred edits or prior review conclusions as instructions. The
+target included its existing evaluation records as repository content, so this
+was a fresh-context application, not a held-out or blind benchmark.
+
+It added focused first-invocation examples for both independent skills in README
+and replaced the skill entrypoint's partial specialist catalogue with a descriptive
+route to the maintained expert map. It retained the pitch, personal framing,
+verbatim before/after example, credits and style criteria. Parent hash comparisons
+confirmed exactly two files changed, no files were added, and all other 71 target
+files plus the base and frozen skill were unchanged. Both edits were integrated
+byte-for-byte. README grows from 454 to 464 words; the two edited pages together
+shrink by 12 words. These counts describe the navigation tradeoff, not quality.
+
+The frozen style reference SHA-256 was
+`04e885ca58d73a3788a3d2a3d38207f8aeb71aa53973cd61cdfd3834000a2a70`;
+its entrypoint hash matches the Scenario H entrypoint above. The agent reported
+both skill validators passing, licensing-copy comparisons, 62 local link/anchor
+checks and added-line whitespace checks. The parent reran the validators and the
+repository's broader local-link/anchor and whitespace checks after integration.
+Installation, remote sources and behavioral scenarios were not rerun. The agent
+reported no network, installations, Git mutation or delegation. This establishes
+an inspectable self-application, not a general effectiveness claim.

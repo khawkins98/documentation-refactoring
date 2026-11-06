@@ -36,7 +36,8 @@ The two skills' fixtures remain original project material.
   attention to project overrides, meaningful titles and optional concise bodies.
   Our workflow instructions are rewritten synthesis, not a copy of that skill.
 - **Ken Hawkins's project conventions** supply the local defaults and are labeled
-  as preferences. They are not presented as requirements of Conventional Commits.
+  as preferences, including the restrained use of em dashes. They are not
+  presented as requirements of Conventional Commits.
 
 Reviewed 2026-11-05. Upstream authors are credited for their work; inclusion does
 not imply endorsement. When updating the direct excerpt, record the new revision,
