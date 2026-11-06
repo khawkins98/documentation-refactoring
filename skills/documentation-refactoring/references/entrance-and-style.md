@@ -37,6 +37,9 @@ path can still leave a new recipient unable to install, open or restore a result
 Review changed prose against these defaults, honoring project/user style and
 required wording:
 
+- Keep clear, accurate wording unless an edit solves an identifiable reader
+  problem. A more technically specific paraphrase alone does not justify a change;
+  check whether it actually improves understanding.
 - Lead with the result or action. Use concrete nouns, active verbs and direct
   instructions; remove introductory throat-clearing and sentences that merely
   explain that documentation is about to explain something.
