@@ -49,6 +49,10 @@ A canonical documentation home is the maintained reader-facing explanation.
 Code, generated declarations or an adopted specification can remain its technical
 authority. Resolve discrepancies using the project's authority rules; report
 uncertainty rather than quietly choosing whichever source makes rewriting easiest.
+Keep implementation and approval distinct. When a prototype differs from a
+proposal or requirement, preserve its intent and approval status; add a dated
+implementation note or open question. Changing acceptance or release criteria
+follows the project's decision process, rather than being inferred from code.
 
 ## Refactor the reader's path
 

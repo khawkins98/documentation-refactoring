@@ -21,6 +21,7 @@ Execution records state their inputs, interventions and validation limits:
 | [SVGOMG-Font comparison](svgomg-font-comparison.md) | Same-baseline trials, revised-skill fresh rerun and landing; placement and validation tradeoffs |
 | [Editorial review and method research](editorial-review-2026-11-06.md) | Informed Astra/source reviews, narrow navigation addition and fresh Scenario F execution |
 | [Change-aware method follow-up](change-aware-research-2026-11-06.md) | Deeper LangChain/Next.js source review, mapping drift and maintainer smoke exercise |
+| [Change-driven applications](change-driven-applications.md) | Real feature-diff trial, proposal-authority correction, fresh Scenario G and Johnny Web repeat |
 
 ## Scenario A — small CLI repository
 
@@ -74,6 +75,15 @@ README placement and prose as well as navigation; do not change the program.”
 Fixture: [entrance-style](fixtures/entrance-style/). Use a disposable copy and its
 project rules. Give the evaluator only this task, the skill and raw fixture.
 
+## Scenario G — prototype behavior and programme requirements
+
+Task: “Use $documentation-refactoring to update documentation affected by the
+feature in feature.patch. Keep the program unchanged.”
+
+Fixture: [prototype-authority](fixtures/prototype-authority/). Use a disposable
+copy and its project rules. Give the evaluator only this task, the skill and raw
+fixture, without the checklist, prior application records or intended edits.
+
 ## Maintainer checklist
 
 For A, check whether changed flags/examples match the executable, the requested
@@ -111,6 +121,13 @@ choose a next step. Dated survey bytes and program source must remain unchanged.
 Accept a justified keep/shorten/move decision rather than requiring a particular
 file tree or reduction percentage. Style quality requires reading the result;
 matching banned words or counting headings is not a behavioral evaluation.
+
+For G, check that the README describes the opt-in URL preview accurately and
+does not claim an actual download. The original programme criteria, pending
+approval and open question must survive. A dated implementation note may explain
+the alternative without turning code into a stakeholder decision. Only the two
+permitted Markdown files may change; the program, patch and instructions stay
+byte-identical. Report any parent intervention separately from independent execution.
 
 For all scenarios, report actual artifacts and commands, uncertainty and any
 intervention. Do not count a word decrease alone as a pass. Add new scenarios when
