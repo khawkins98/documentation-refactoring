@@ -23,6 +23,15 @@ Execution records state their inputs, interventions and validation limits:
 | [Change-aware method follow-up](change-aware-research-2026-11-06.md) | Deeper LangChain/Next.js source review, mapping drift and maintainer smoke exercise |
 | [Change-driven applications](change-driven-applications.md) | Real feature-diff trial, proposal-authority correction, fresh Scenario G and Johnny Web repeat |
 | [Compact prose pass](prose-style-results.md) | Fresh Scenario H execution, literal preservation and maintainer PR self-review |
+| [Selection and quick start](selection-and-quick-start.md) | Unnamed-skill host selection checks and an executed one-off CLI trial |
+
+## Skill selection
+
+Scenarios A–H explicitly name their skill; they test execution after selection.
+Before widening a description, also try ordinary requests without skill names
+in a host with both skills available. Include a nearby unrelated task and inspect
+which skill files the agent actually reads. The [initial selection checks](selection-and-quick-start.md)
+record exact requests, setup, observations and limits.
 
 ## Scenario A — small CLI repository
 

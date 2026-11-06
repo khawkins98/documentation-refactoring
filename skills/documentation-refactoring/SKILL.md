@@ -99,8 +99,8 @@ capability being claimed; a small prose correction does not require a full
 product tour or test suite. A fresh agent can help when authorized and useful,
 but is not a user study.
 
-Before moving pages, inspect the publication or packaging contract. Verify
-affected routes and examples where readers use them, since checkout,
+When a change affects documentation routes or packaging, inspect the distribution
+contract and verify affected paths and examples in the actual artifact. Checkout,
 installed-package and published-site behavior can differ. Preserve compatibility
 routes when they serve actual readers.
 

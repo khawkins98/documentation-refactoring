@@ -38,23 +38,31 @@ From this README:
 
 ## Use
 
-Use Node.js with npm/npx. Install one or both with the
-[Skills CLI](https://skills.sh/docs/cli):
+With Node.js 22.20 or later, run the [Skills CLI](https://github.com/vercel-labs/skills#install-a-skill)
+from your target repository. It prompts for your agent and installs into that
+project by default. Add `-g` to make a skill available across projects.
+
+Install one or both:
 
 ```sh
 npx skills add khawkins98/reader-first --skill documentation-refactoring
 npx skills add khawkins98/reader-first --skill contribution-conventions
 ```
 
-From a local checkout, use `.` as the source:
+To use a local Reader First checkout, replace `khawkins98/reader-first` with its path.
+You can also copy a selected skill folder to your agent's supported skills directory.
+
+To try once without installing the skill into your project:
 
 ```sh
-npx skills add . --skill documentation-refactoring
+npx skills use khawkins98/reader-first@documentation-refactoring
 ```
 
-You can also copy a selected skill folder to your agent's supported skills directory.
-After installation, ask your agent to work in the target repository. For a
-single-page documentation task:
+This prepares temporary skill files and prints a prompt for a local agent. See
+the [command reference](https://github.com/vercel-labs/skills/blob/main/docs/commands.md#skills-use)
+for options to launch an agent directly.
+
+For a single-page documentation task, ask your agent:
 
 > Use $documentation-refactoring to improve README.md for a first-time reader.
 > Keep the setup working, preserve required technical detail and verify the

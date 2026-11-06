@@ -1,30 +1,15 @@
 # Repository-wide documentation work
 
-Use this for a broad rollout, not a single-page correction.
+Use for a broad rollout alongside the skill's [scope and authority](../SKILL.md#establish-scope-and-authority)
+and [verification](../SKILL.md#verify-the-result) rules.
 
 ## Find homes before making copies
 
 Inventory document families by path, purpose, audience and governing source.
-Separate active guides from technical contracts, generated catalogs, historical
-plans, experiments, provenance and evidence. Respect read restrictions while
-building the inventory; a repository-wide assignment does not erase role gates.
-
 Identify reader paths and competing accounts. Choose where each maintained
 explanation lives, then route readers there. Reuse existing pages when they fit.
 A small task index can connect families without making the README exhaustive.
-Avoid a catalog that becomes another detailed description to maintain. Include an
-explicit entrance placement/style decision using [the editorial criteria](entrance-and-style.md);
-cleaning contributor files alone does not establish that the README serves its reader.
-
-Apply the smallest useful intervention to each family:
-
-| Material | Useful intervention |
-| --- | --- |
-| Active instructions | Correct stale claims, consolidate repetition, verify the task |
-| Full reference or adopted specification | Improve lookup and navigation; preserve required contracts and review process |
-| Historical plan or experiment | Label recorded scope, add current routes; preserve claims and failed/limited outcomes |
-| Evidence or provenance | Follow its retention and review requirements; editorial brevity does not override them |
-| Generated inventory | Update the source/generator when justified, otherwise link to it |
+Avoid a catalog that becomes another detailed description to maintain.
 
 ## Keep the work reviewable
 
@@ -51,11 +36,6 @@ performs, not just that its file exists. A retired selector or storage key can
 leave every link valid while the reader's task fails. Keep this source check
 focused; it does not require running every asset-dependent capture pipeline.
 Make size thresholds advisory unless the project explicitly adopts a hard limit.
-Include new pages in totals so relocation cannot masquerade as deletion.
-
-Distribution checks should reflect how this project ships. Package file selection,
-site build routes and generated cross-links can behave differently from the
-checkout. Test the artifact rather than infer its contents from a file list.
 
 ## Report and iterate
 
