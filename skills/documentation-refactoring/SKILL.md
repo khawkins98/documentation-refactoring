@@ -31,6 +31,12 @@ of truth. Classify from permitted metadata before opening restricted evidence.
 Do not turn documentation maintenance into permission to inspect forbidden
 material, change runtime behavior, alter release scope or publish anything.
 
+For an update prompted by code changes, trace the relevant diff to affected reader
+tasks, examples and shared-content consumers. Treat code-to-docs maps as search
+leads; verify current paths and behavior. Check related pages for contradictions
+caused by the change without widening into unrelated cleanup. An internal
+refactor may need no documentation change.
+
 Distinguish maintained instructions, lookup reference, explanation, proposals,
 records, evidence, provenance and generated output. A dated failed experiment is
 not stale usage advice. Preserve its original claims, conditions and limitations;

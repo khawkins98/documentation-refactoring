@@ -14,6 +14,8 @@ and a way to study the source methods, not a requirement to fetch and execute th
 | Moved detail is difficult to find | Information scent: Raluca Budiu / Nielsen Norman Group | Check whether the link and its context predict the destination's answer |
 | A README loses its intended audience | Audience: Softaworks' README guidance | Restore a clear entrance and working first success |
 | Correct information is hard to read | Prose: Softaworks' writing guidance | Edit for concrete wording after deciding what belongs |
+| A diff needs a restrained editorial review | LangChain's docs-review and CI guidance | Find regressions, preserve meaning during cuts and allow no findings |
+| A code change may affect documentation | Vercel / Next.js's update-docs | Trace reader-visible behavior to affected tasks and shared-content consumers |
 | Authors assume knowledge readers lack | Reader checking: Anthropic's coauthoring workflow | Try representative reader tasks with fresh context when useful and authorized |
 
 The synthesis adds the local project's authority, distribution and retention
@@ -27,8 +29,8 @@ approval, orchestration or external-action requirements.
 The entries below are **inspiration**, not copied text or vendored skills. These
 credits identify the ideas used; source licenses do not become this project's
 license merely because we link to them. Pinning records what was reviewed and
-does not imply upstream endorsement. Repository sources reviewed 2026-11-05;
-the web article below was reviewed 2026-11-06.
+does not imply upstream endorsement. Initial repository sources reviewed
+2026-11-05; LangChain, Next.js and the web article below reviewed 2026-11-06.
 
 ### Structure and placement
 
@@ -70,6 +72,26 @@ the web article below was reviewed 2026-11-06.
 - Reviewed revision: `3027f20f3181758385a1bb8c022d4041dfb4de84`.
 - Upstream license: [MIT](https://github.com/softaworks/agent-toolkit/blob/3027f20f3181758385a1bb8c022d4041dfb4de84/LICENSE).
 - Use: independently written guidance informed by this perspective. Apply selective copyediting after content decisions; preserve precise technical meaning.
+
+### Change-aware editorial review
+
+- Credit: **LangChain and contributors**.
+- Sources: [docs-review](https://github.com/langchain-ai/docs/blob/0e9200466a1424c828266939ada9c0d32a90f78c/.agents/skills/docs-review/SKILL.md) and its [CI guidance](https://github.com/langchain-ai/docs/blob/0e9200466a1424c828266939ada9c0d32a90f78c/.agents/skills/docs-review/ci-mode.md).
+- Reviewed revision: `0e9200466a1424c828266939ada9c0d32a90f78c`.
+- Upstream license: the skill declares MIT, consistent with the [root license](https://github.com/langchain-ai/docs/blob/0e9200466a1424c828266939ada9c0d32a90f78c/LICENSE); no more-specific license or notice files were found under `.agents`.
+- Use: independently written guidance for scoped review, preserving meaning when
+  shortening text and following contradictions caused outside the diff. House
+  phrase rules, CI schemas and automation are not adopted.
+
+### Code-change impact
+
+- Credit: **Vercel, Inc. and Next.js contributors**.
+- Sources: [update-docs](https://github.com/vercel/next.js/blob/4f350fb33cfbdb13b63ecd2d594e8588f6d667e0/.agents/skills/update-docs/SKILL.md) and its [code-to-docs mapping](https://github.com/vercel/next.js/blob/4f350fb33cfbdb13b63ecd2d594e8588f6d667e0/.agents/skills/update-docs/references/CODE-TO-DOCS-MAPPING.md).
+- Reviewed revision: `4f350fb33cfbdb13b63ecd2d594e8588f6d667e0`.
+- Upstream license: [MIT](https://github.com/vercel/next.js/blob/4f350fb33cfbdb13b63ecd2d594e8588f6d667e0/license.md); no more-specific license or notice files were found under `.agents`.
+- Use: independently written guidance tracing source changes to documentation
+  impact. Verify mapping entries before relying on them. Next.js paths, templates
+  and confirmation steps are not adopted. No source text is included.
 
 ### Documentation framework
 

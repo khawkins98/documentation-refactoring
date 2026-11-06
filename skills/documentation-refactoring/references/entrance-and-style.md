@@ -39,8 +39,11 @@ path can still leave a new recipient unable to install, open or restore a result
 
 ## Apply the prose criteria
 
-Review changed prose against these defaults, honoring project/user style and
-required wording:
+For a diff review, identify reader regressions and applicable project-rule
+violations, keeping optional preferences separate. Read enough surrounding text
+to understand the change; leave unrelated prose outside the review. Finding no
+issue is a valid outcome. When editing, honor project/user style and required
+wording:
 
 - Make the smallest edit that resolves the reader's problem. If one format,
   label or clause is wrong, correct that part before rewriting a working paragraph.
@@ -68,11 +71,12 @@ required wording:
 
 ## Check the outcome
 
-Unresolved duplicate active instructions, unsupported claims, lost material
+Within scope, unresolved duplicate active instructions, unsupported claims, lost material
 caveats/credit, and a README section with no useful role are review findings to
 fix before delivery, or explicitly report when scope/authority prevents a fix.
-Compare the original and revised opening and first task. Keep changes that improve
-understanding or action; check that qualifications arrive when useful and that
-deeper explanations have a maintained home. Report material unresolved findings
-and navigation tradeoffs. Assess the prose by reading it, not by keyword bans or
-heading and word counts.
+Compare the original and revised opening and first task. Check shortened passages
+for lost conditions, defaults or requirements and references whose subject was
+cut. Keep changes that improve understanding or action; check that qualifications
+arrive when useful and that deeper explanations have a maintained home. Report
+material unresolved findings and navigation tradeoffs. Assess the prose by reading
+it, not by keyword bans or heading and word counts.
