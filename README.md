@@ -1,24 +1,25 @@
 # Reader First
 
-A curated collection of agent skills for maintaining repository documentation.
-It brings together established specialist methods for structure, audience, prose,
-reader review and contribution conventions, with a small layer for selecting and
-applying them to a project.
+Two highly opinionated agent skills for contributions and documentation.
 
-The foundations belong to their authors: **Daniele Procida (Diátaxis), GitHub and
-awesome-copilot contributors, Samuel Berthe, Leonardo Flores / Softaworks, Google,
-Anthropic, dmythro and the Conventional Commits contributors**. The
-[source and reuse records](SOURCES.md) credit each contribution and distinguish
-inspiration, adaptation and direct reuse.
+I made these because I kept giving AI agents the same brief on every project,
+then cleaning up the results. They capture how I like to work so I can reuse
+those preferences instead of explaining them again.
 
 | Skill | Use it for |
 | --- | --- |
-| [documentation-refactoring](skills/documentation-refactoring/SKILL.md) | README cleanup, stale or duplicated guidance, repository-wide documentation maintenance |
-| [contribution-conventions](skills/contribution-conventions/SKILL.md) | Conventional commit/PR titles, clear review descriptions and maintainer attribution preferences |
+| [contribution-conventions](skills/contribution-conventions/SKILL.md) | My contribution defaults: Conventional Commits, focused PRs, and no unsolicited AI co-author trailers or tool signatures. |
+| [documentation-refactoring](skills/documentation-refactoring/SKILL.md) | The more broadly useful one: separate reader tasks, keep explanations in maintained homes, fix stale guidance and give prose a light style pass. |
 
-The skills are independent. Documentation refactoring does not require the
-contribution skill, and neither grants permission to push, publish or merge.
-Project and user instructions take precedence over these defaults.
+Use either skill on its own or adapt it to your project. Project and user
+instructions take precedence over my defaults. Neither skill grants permission
+to push, publish or merge.
+
+The foundations belong to their authors: **Daniele Procida (Diátaxis), GitHub and
+awesome-copilot contributors, Samuel Berthe, Leonardo Flores / Softaworks, Google,
+Anthropic, Siqi Chen (Humanizer), dmythro and the Conventional Commits contributors**.
+The [source and reuse records](SOURCES.md) credit each contribution and distinguish
+inspiration, adaptation and direct reuse.
 
 ## Before and after
 

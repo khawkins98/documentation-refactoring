@@ -50,6 +50,8 @@ boilerplate, not removing people or license obligations.
 
 Lead with the concrete problem and resulting behavior. Add implementation detail,
 tradeoffs, actual validation and material limits in proportion to the change.
+Prefer commas, colons, semicolons or full stops to em dashes, keeping a dash when
+it helps the sentence. Preserve quoted wording and follow the project's style.
 Use the repository template where required. Otherwise short prose is often enough;
 headings or lists are useful only when they make the review easier. Conventional
 Commit syntax applies to titles, not a special body format.

@@ -49,8 +49,8 @@ wording:
   label or clause is wrong, correct that part before rewriting a working paragraph.
   Preserve its surrounding voice and meaning.
 - Lead with the result or action. Use concrete nouns, active verbs and direct
-  instructions; remove introductory throat-clearing and sentences that merely
-  explain that documentation is about to explain something.
+  instructions. Cut staged openings, narration about what the text will explain,
+  and closing lines that merely repeat the point.
 - Give each paragraph one purpose. Remove repeated product promises, duplicate
   setup advice and claims the project cannot support. Preserve useful comparisons
   and the project's voice; do not turn every project into generic product copy.
@@ -62,6 +62,14 @@ wording:
 - Prefer a positive, precise statement to rhetorical contrasts and reassurance
   about unrequested alternatives. Name actual limits rather than adding vague
   promises such as “seamless”, “robust” or “fully secure”.
+- Generally avoid em dashes. Prefer commas, colons, semicolons or full stops as
+  the grammar allows. Keep a dash when it makes an interruption or aside clearer.
+  Apply this to prose, preserving literal quotations, UI labels, identifiers and code.
+- Let the meaning shape the rhythm. Avoid forcing points into matching groups
+  of three or repeated sentence patterns; keep genuine lists and useful contrasts.
+- Keep the writer's existing voice. Do not invent anecdotes, opinions, citations
+  or facts to make a passage sound personal. Judge phrases in context rather than
+  maintaining a banned-word list.
 - Use descriptive links and the UI/CLI's actual names. Put actions in order,
   prerequisites before commands and warnings beside the affected action.
 - Use headings for reader tasks, lists for parallel choices/steps, and tables for

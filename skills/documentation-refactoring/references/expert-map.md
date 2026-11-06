@@ -14,6 +14,7 @@ and a way to study the source methods, not a requirement to fetch and execute th
 | Moved detail is difficult to find | Information scent: Raluca Budiu / Nielsen Norman Group | Check whether the link and its context predict the destination's answer |
 | A README loses its intended audience | Audience: Softaworks' README guidance | Restore a clear entrance and working first success |
 | Correct information is hard to read | Prose: Softaworks' writing guidance | Edit for concrete wording after deciding what belongs |
+| Prose feels formulaic or overworked | Voice and rhythm: Siqi Chen's Humanizer | Apply a compact, context-sensitive prose pass that preserves meaning |
 | A diff needs a restrained editorial review | LangChain's docs-review and CI guidance | Find regressions, preserve meaning during cuts and allow no findings |
 | A code change may affect documentation | Vercel / Next.js's update-docs | Trace reader-visible behavior to affected tasks and shared-content consumers |
 | Authors assume knowledge readers lack | Reader checking: Anthropic's coauthoring workflow | Try representative reader tasks with fresh context when useful and authorized |
@@ -30,7 +31,7 @@ The entries below are **inspiration**, not copied text or vendored skills. These
 credits identify the ideas used; source licenses do not become this project's
 license merely because we link to them. Pinning records what was reviewed and
 does not imply upstream endorsement. Initial repository sources reviewed
-2026-11-05; LangChain, Next.js and the web article below reviewed 2026-11-06.
+2026-11-05; LangChain, Next.js, Humanizer and the web article below reviewed 2026-11-06.
 
 ### Structure and placement
 
@@ -92,6 +93,18 @@ does not imply upstream endorsement. Initial repository sources reviewed
 - Use: independently written guidance tracing source changes to documentation
   impact. Verify mapping entries before relying on them. Next.js paths, templates
   and confirmation steps are not adopted. No source text is included.
+
+### Compact prose pass
+
+- Credit: **Siqi Chen (blader) and Humanizer contributors**.
+- Source: [blader/humanizer/SKILL.md](https://github.com/blader/humanizer/blob/0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0/SKILL.md), version 3.1.0.
+- Reviewed revision: `0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0`.
+- Upstream license: [MIT, copyright 2025 Siqi Chen](https://github.com/blader/humanizer/blob/0ef9fe5bc3572734fd3ae6c448fe00a30cd5dcf0/LICENSE). No more-specific license/notice files were found in the inspected tree.
+- Use: conceptual inspiration for a small prose pass, written independently.
+  Staged openings, repetitive rhythm and inflated claims merit contextual review.
+  Ken Hawkins's em-dash preference allows useful exceptions; Humanizer's full
+  pattern catalogue, strict dash rule and output workflow are not adopted.
+- Lineage: Humanizer credits [Wikipedia's Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), maintained by WikiProject AI Cleanup. Neither source prose nor its examples are reproduced here.
 
 ### Documentation framework
 
