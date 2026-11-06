@@ -22,9 +22,9 @@ valid when it already serves the reader or is outside scope.
 | Exhaustive command catalogs and navigation | Link the canonical task/reference guide; do not replace one large README with an equally large index. |
 
 Update the destination before removing the old account. Check inbound anchors and
-relative links after relocation, and count new pages in the total. Check that the
-remaining link and its context let the intended reader predict what the destination
-answers. Do not pursue a percentage reduction by hiding critical limits,
+relative links after relocation. Check that the remaining link and its context
+let the intended reader predict what the destination answers. Do not pursue a
+percentage reduction by hiding critical limits,
 fragmenting a short explanation or deleting evidence.
 
 For each discovered detail, identify the decision or action it changes. First use
