@@ -10,8 +10,7 @@ They independently apply the audience/prose/structure perspectives credited in
 Name the primary reader and the first useful result. Review the README itself,
 even when duplication is more obvious in contributor/agent files. For each large
 section, decide keep, shorten, move or merge. Leaving the entrance unchanged is
-valid when it already serves the reader or is outside scope; explain that choice
-instead of treating an unchanged README as evidence of a completed entrance review.
+valid when it already serves the reader or is outside scope.
 
 | Material | Placement decision |
 | --- | --- |
@@ -23,9 +22,10 @@ instead of treating an unchanged README as evidence of a completed entrance revi
 | Exhaustive command catalogs and navigation | Link the canonical task/reference guide; do not replace one large README with an equally large index. |
 
 Update the destination before removing the old account. Check inbound anchors and
-relative links after relocation, and count new pages in the total. Explain the
-extra navigation cost. Do not pursue a percentage reduction by hiding critical
-limits, fragmenting a short explanation or deleting evidence.
+relative links after relocation, and count new pages in the total. Check that the
+remaining link and its context let the intended reader predict what the destination
+answers. Do not pursue a percentage reduction by hiding critical limits,
+fragmenting a short explanation or deleting evidence.
 
 For each discovered detail, identify the decision or action it changes. First use
 needs a complete path, not an explanation of every option and failure mode.
@@ -49,11 +49,13 @@ required wording:
   instructions; remove introductory throat-clearing and sentences that merely
   explain that documentation is about to explain something.
 - Give each paragraph one purpose. Remove repeated product promises, duplicate
-  setup advice, unsupported superlatives and promotional comparisons. Preserve
-  useful personal voice; do not turn every project into generic product copy.
-- Keep product pitches clear and memorable. Qualify them to prevent a material
-  misconception, with supporting detail beside the relevant task. Ordinary product
-  shorthand does not require an exhaustive compatibility statement.
+  setup advice and claims the project cannot support. Preserve useful comparisons
+  and the project's voice; do not turn every project into generic product copy.
+- Preserve a clear product pitch unless its likely reading would lead the intended
+  reader to choose or act incorrectly. Do not rewrite working copy solely because
+  narrower, more literal wording is available. Put a qualification where it first
+  changes a decision or action; it belongs in the opening only when needed to
+  understand what the product is or whether to use it.
 - Prefer a positive, precise statement to rhetorical contrasts and reassurance
   about unrequested alternatives. Name actual limits rather than adding vague
   promises such as “seamless”, “robust” or “fully secure”.
@@ -69,9 +71,8 @@ required wording:
 Unresolved duplicate active instructions, unsupported claims, lost material
 caveats/credit, and a README section with no useful role are review findings to
 fix before delivery, or explicitly report when scope/authority prevents a fix.
-Resolve style findings in changed prose, or explain the project/scope exception.
-Compare the original and revised opening and first task side by side. Keep broader
-rewrites when they improve understanding or action; check the timing of caveats
-and route duplicate explanations to their maintained home. Link/word-count checks
-cannot establish style. State what improved and any intentional exception. Avoid
-keyword bans or prose tests that merely match the wording of these instructions.
+Compare the original and revised opening and first task. Keep changes that improve
+understanding or action; check that qualifications arrive when useful and that
+deeper explanations have a maintained home. Report material unresolved findings
+and navigation tradeoffs. Assess the prose by reading it, not by keyword bans or
+heading and word counts.

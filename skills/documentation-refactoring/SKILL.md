@@ -1,6 +1,6 @@
 ---
 name: documentation-refactoring
-description: Apply a curated mix of documentation specialists to refactor existing repository docs around reader tasks, consolidate stale or duplicate explanations and verify the result. Use for README cleanup or repository-wide maintenance, scaled to the requested scope.
+description: Refactor existing repository documentation around reader tasks, correct stale instructions, consolidate duplicate explanations and verify affected reader paths. Use for README cleanup, documentation navigation or repository-wide maintenance, scaled to the requested scope.
 ---
 
 # Documentation refactoring
@@ -70,41 +70,40 @@ when editing an entrance or polishing prose. Treat unresolved duplication,
 unsupported claims and lost reader limits/credits as findings to resolve or report;
 a shorter page or a passing link check alone does not establish editorial quality.
 
-For a larger sweep, read [repository-wide work](references/repository-wide.md).
-For a focused edit, the guidance here is sufficient.
+Read [repository-wide work](references/repository-wide.md) for a larger sweep;
+it is unnecessary for a focused edit.
 
 ## Verify the result
 
-Check changed commands, names and claims against allowed source or executable
-examples. Check moved relative links, heading anchors, inbound references and
-agent-discovery files. A resolving link does not establish a working task: when a
-linked helper depends on a changed UI or API, inspect its executable entrypoint
-and current inputs. Repair it only within scope; otherwise identify its limitation
-and route readers to a maintained alternative. Retain compatibility routes where
-their navigation value justifies them.
+Verify changed commands, names and claims against permitted source or executable
+examples. Check affected relative links, anchors, inbound references and
+agent-discovery files. Follow linked helpers far enough to establish that their
+current inputs and entrypoints support the documented task; a resolving link is
+insufficient. Repair defects within scope, or describe the limitation and route
+readers to a maintained alternative.
 
-Inspect the project's actual publication or packaging contract before moving
-pages. A link that resolves in the checkout may fail in an installed package,
-rendered site, source archive or release artifact. Exercise affected examples at
-the boundary readers will use; apply the project's required checks without
-inventing a full-suite requirement for every prose edit.
+Exercise representative reader paths affected by the change. For a handoff,
+include the recipient's prerequisites and how they open or restore the result.
+Apply the project's required checks and choose additional checks for the
+capability being claimed; a small prose correction does not require a full
+product tour or test suite. A fresh agent can help when authorized and useful,
+but is not a user study.
 
-A missing-input error may mean an unset path rather than an absent asset. Check
-the configuration and documented or explicitly permitted local locations, and
-verify the required version/hash before declaring a blocker. Stay within the
-authorized scope; do not substitute or publish restricted inputs to obtain a pass.
+Before moving pages, inspect the publication or packaging contract. Verify
+affected routes and examples where readers use them, since checkout,
+installed-package and published-site behavior can differ. Preserve compatibility
+routes when they serve actual readers.
 
-Test representative reader tasks: choosing a setup, reaching a working result,
-finding an advanced option and identifying a relevant limitation. A fresh agent
-can help when authorized and useful, but is not a user study. For handoffs, check
-each participant's prerequisites and how the recipient opens or restores the
-result; an export command alone does not establish a usable fallback. State exactly
-what was checked and what remains uncertain. Distinguish command success from the
-capabilities exercised: inspect skips and review-only warnings before claiming
-validation. Synthetic fixtures and historical results keep their own conditions;
-they do not establish current live behavior. Record validation substitutions,
-such as reused dependencies instead of a fresh install or local assets/URLs
-instead of the published example; report which original boundaries remain untested.
+Before declaring a missing-input blocker, check configuration and documented or
+explicitly permitted locations, including any required version or hash. Do not
+substitute restricted inputs or change persistent configuration without
+authorization.
+
+Report what the checks establish and what remains uncertain. Distinguish
+successful commands from skipped checks, review warnings and capabilities not
+exercised. Disclose substitutions such as reused dependencies or local URLs,
+and the original boundary left untested. Historical results and synthetic
+fixtures retain their own conditions.
 
 For broad cleanups, report both entrance-page size and total documentation change,
 including added files and relocated material. Counts diagnose growth; they are

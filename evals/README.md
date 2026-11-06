@@ -19,6 +19,7 @@ Execution records state their inputs, interventions and validation limits:
 | [PDF-A-go-go application](pdf-a-go-go-application.md) | Adapted examples, clean-install resolution and independent source review |
 | [Pinment application](pinment-application.md) | Recipient/fallback review, bounded independent skill exercise and local browser checks |
 | [SVGOMG-Font comparison](svgomg-font-comparison.md) | Same-baseline trials, revised-skill fresh rerun and landing; placement and validation tradeoffs |
+| [Editorial review and method research](editorial-review-2026-11-06.md) | Informed Astra/source reviews, narrow navigation addition and fresh Scenario F execution |
 
 ## Scenario A — small CLI repository
 

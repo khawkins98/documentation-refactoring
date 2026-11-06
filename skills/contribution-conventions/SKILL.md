@@ -1,6 +1,6 @@
 ---
 name: contribution-conventions
-description: Compose Conventional Commits and a credited upstream commit reference with maintainer preferences to prepare clear commits and PRs. Use for requested or authorized contribution preparation; target-project rules override the defaults.
+description: Prepare or review commit messages and PR titles and descriptions using project rules, Conventional Commit defaults and maintainer attribution preferences. Use for requested or already-authorized contribution preparation.
 ---
 
 # Contribution conventions
@@ -24,9 +24,9 @@ attribution and review requirements. Preserve unrelated work, existing human
 credits, licensing and historical commit metadata. Do not rewrite history to
 remove trailers or silently configure global Git behavior.
 
-Validate the final base-to-head diff, not only unstaged edits. If the project
-requires an exact-head readiness receipt, attach it for the final pushed candidate;
-passing CI or a clean working tree alone does not establish that requirement.
+Review all changes being submitted, including commits already on the branch;
+do not inspect only the working tree. Tie validation to the candidate it covers
+and satisfy any project-specific readiness or approval requirements.
 
 ## Titles and commits
 

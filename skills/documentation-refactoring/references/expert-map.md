@@ -11,6 +11,7 @@ and a way to study the source methods, not a requirement to fetch and execute th
 | --- | --- | --- |
 | A page tries to teach, explain and list every option at once | Structure: Diátaxis, GitHub's documentation writer | Separate reader purposes where doing so helps |
 | An existing docs set is hard to navigate | Information architecture: Samuel Berthe's structure audit | Inventory, find competing accounts, improve routes |
+| Moved detail is difficult to find | Information scent: Raluca Budiu / Nielsen Norman Group | Check whether the link and its context predict the destination's answer |
 | A README loses its intended audience | Audience: Softaworks' README guidance | Restore a clear entrance and working first success |
 | Correct information is hard to read | Prose: Softaworks' writing guidance | Edit for concrete wording after deciding what belongs |
 | Authors assume knowledge readers lack | Reader checking: Anthropic's coauthoring workflow | Try representative reader tasks with fresh context when useful and authorized |
@@ -26,7 +27,8 @@ approval, orchestration or external-action requirements.
 The entries below are **inspiration**, not copied text or vendored skills. These
 credits identify the ideas used; source licenses do not become this project's
 license merely because we link to them. Pinning records what was reviewed and
-does not imply upstream endorsement. Reviewed 2026-11-05.
+does not imply upstream endorsement. Repository sources reviewed 2026-11-05;
+the web article below was reviewed 2026-11-06.
 
 ### Structure and placement
 
@@ -43,6 +45,15 @@ does not imply upstream endorsement. Reviewed 2026-11-05.
 - Reviewed revision: `a2ae344aa93847e45a1ecb8b2e87c69a8a0b5d6e`.
 - Upstream license: [MIT](https://github.com/samber/developer-relations-skills/blob/a2ae344aa93847e45a1ecb8b2e87c69a8a0b5d6e/LICENSE).
 - Use: independently written guidance informed by this perspective. Inventory before judging structure; look for mixed purposes, duplicate accounts and navigation drift.
+
+### Predictable navigation
+
+- Credit: **Raluca Budiu / Nielsen Norman Group**.
+- Source: [Information Scent: How Users Decide Where to Go Next](https://www.nngroup.com/articles/information-scent/), published 2020-02-02; reviewed 2026-11-06. This web article has no pinned repository revision.
+- Rights: NN/G's [copyright and reprint policy](https://www.nngroup.com/copyright-and-reprint-info/) reserves rights and permits linking.
+- Use: conceptual inspiration for checking that a link and its context help readers
+  anticipate the destination's answer. No article wording, artwork or checklist
+  is reproduced; the local instruction is independently written.
 
 ### Audience and first success
 

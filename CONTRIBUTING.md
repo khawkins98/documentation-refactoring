@@ -19,10 +19,11 @@ Before requesting review:
 3. Run your agent platform's skill validator when available. Report the validator
    and version/path used; YAML validity does not establish behavioral quality.
 4. For a material behavior change, exercise relevant [evaluation scenarios](evals/README.md)
-   in disposable workspaces. An independent reviewer should receive the user task,
-   skill and raw fixture, without the intended answer or suspected failure.
-   Keep side effects within the scenario's authorization. Record observable outcomes
-   and limitations rather than just a reviewer score.
+   in disposable workspaces. When evaluating independent skill execution, supply
+   the task, skill and raw fixture without the intended answer or suspected failure.
+   Design and source reviews may use full context. Keep side effects within the
+   scenario's authorization. Record which kind of review occurred, observable
+   outcomes, interventions and limitations rather than just a reviewer score.
 
 Follow existing authorization for draft PRs; opening one does not authorize merging
 or publishing a release. Reviewers should look for scope expansion, lost contracts,
@@ -42,8 +43,9 @@ Treat this as a curated composition. Explain which specialist contributes to a
 change and what the local layer adds, without claiming we invented established
 methods or framing the project as a replacement born from others' inadequacy.
 
-- Record source URL, author/project credit, immutable reviewed revision and the
-  material's applicable license. Check file/directory notices as well as the
+- Record source URL, author/project credit, immutable reviewed repository revision
+  (or publication and review dates for web-only sources), and the material's
+  applicable license or rights policy. Check file/directory notices as well as the
   repository license; third-party notices for other components are not a grant.
 - Label the relationship as inspired, adapted or directly reused in the
   [source records](SOURCES.md). Inspired guidance uses our own expression.
