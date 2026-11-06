@@ -51,6 +51,9 @@ wording:
 - Lead with the result or action. Use concrete nouns, active verbs and direct
   instructions. Cut staged openings, narration about what the text will explain,
   and closing lines that merely repeat the point.
+- Show rather than tell when a short example makes the point clearer. Use an
+  excerpt, a command and its result, or an input/output pair instead of describing
+  the benefit. Prefer verified real material; label illustrative examples.
 - Give each paragraph one purpose. Remove repeated product promises, duplicate
   setup advice and claims the project cannot support. Preserve useful comparisons
   and the project's voice; do not turn every project into generic product copy.

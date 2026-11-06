@@ -96,3 +96,7 @@ The user preferred actual prose to a description of structural changes. The
 README example now quotes this project's opening at `6d937cf` and `a25afe2`, with
 immutable source links. The maintainer verified both excerpts against those
 commits. The explanatory table and word-count commentary were removed.
+This prompted a narrow “show rather than tell” principle in the style reference:
+use concrete examples when they clarify the point, prefer verified real material
+and label illustrative examples. This addition follows the frozen Scenario H
+trial; the README provides a maintainer application, not a new independent test.
