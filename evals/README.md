@@ -25,6 +25,7 @@ Execution records state their inputs, interventions and validation limits:
 | [Compact prose pass](prose-style-results.md) | Fresh Scenario H execution, literal preservation and maintainer PR self-review |
 | [Selection and quick start](selection-and-quick-start.md) | Unnamed-skill host selection checks and an executed one-off CLI trial |
 | [Foveacast application](foveacast-application.md) | Fresh real-project application, parent source review and supported-alternative check |
+| [Elements of Style trials](elements-of-style-trials.md) | Draft-skill applications to Pinment and Blocklate, with preserved constraints and verification limits |
 
 ## Skill selection
 
