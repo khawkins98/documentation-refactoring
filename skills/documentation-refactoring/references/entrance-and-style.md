@@ -49,14 +49,19 @@ wording:
   label or clause is wrong, correct that part before rewriting a working paragraph.
   Preserve its surrounding voice and meaning.
 - Lead with the result or action. Use concrete nouns, active verbs and direct
-  instructions. Cut staged openings, narration about what the text will explain,
-  and closing lines that merely repeat the point.
+  instructions rather than noun-heavy phrases. Passive voice is useful when the
+  actor is unknown or the result deserves the focus. Cut staged openings, narration
+  about what the text will explain, and closing lines that merely repeat the point.
 - Show rather than tell when a short example makes the point clearer. Use an
   excerpt, a command and its result, or an input/output pair instead of describing
   the benefit. Prefer verified real material; label illustrative examples.
-- Give each paragraph one purpose. Remove repeated product promises, duplicate
-  setup advice and claims the project cannot support. Preserve useful comparisons
-  and the project's voice; do not turn every project into generic product copy.
+- Give each paragraph one purpose and make its point clear early. Cut padding,
+  repeated product promises, duplicate setup advice and unsupported claims.
+  Preserve useful emphasis, comparisons and the project's voice.
+- Keep conditions and qualifiers beside the actions or claims they govern, and
+  make pronoun references clear. Reordering must preserve who does what and when.
+- Give comparable steps and options a consistent grammatical form so readers can
+  compare them. Preserve literal UI labels and code.
 - Preserve a clear product pitch unless its likely reading would lead the intended
   reader to choose or act incorrectly. Do not rewrite working copy solely because
   narrower, more literal wording is available. Put a qualification where it first
@@ -64,7 +69,8 @@ wording:
   understand what the product is or whether to use it.
 - Prefer a positive, precise statement to rhetorical contrasts and reassurance
   about unrequested alternatives. Name actual limits rather than adding vague
-  promises such as “seamless”, “robust” or “fully secure”.
+  promises such as “seamless”, “robust” or “fully secure”. Keep direct prohibitions
+  when they prevent a mistake.
 - Generally avoid em dashes. Prefer commas, colons, semicolons or full stops as
   the grammar allows. Keep a dash when it makes an interruption or aside clearer.
   Apply this to prose, preserving literal quotations, UI labels, identifiers and code.

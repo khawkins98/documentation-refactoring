@@ -5,7 +5,7 @@ small local layer for choosing, applying and checking them in a project.
 
 | Skill | Sources and relationship |
 | --- | --- |
-| [Documentation refactoring](skills/documentation-refactoring/SKILL.md) | [Expert map and credits](skills/documentation-refactoring/references/expert-map.md): Diátaxis by Daniele Procida; GitHub's documentation writer; Samuel Berthe's docs structure audit; Raluca Budiu / NN/G's information scent; Leonardo Flores / Softaworks' README and prose guidance; Siqi Chen's Humanizer; LangChain's change-aware review; Vercel / Next.js's code-change routing; Google's documentation practices; Anthropic's fresh-reader workflow |
+| [Documentation refactoring](skills/documentation-refactoring/SKILL.md) | [Expert map and credits](skills/documentation-refactoring/references/expert-map.md): Diátaxis by Daniele Procida; GitHub's documentation writer; Samuel Berthe's docs structure audit; Raluca Budiu / NN/G's information scent; Leonardo Flores / Softaworks' README and prose guidance; William Strunk Jr.'s composition principles; Siqi Chen's Humanizer; LangChain's change-aware review; Vercel / Next.js's code-change routing; Google's documentation practices; Anthropic's fresh-reader workflow |
 | [Contribution conventions](skills/contribution-conventions/SKILL.md) | [Reuse record](skills/contribution-conventions/references/expert-map.md): Conventional Commits, dmythro's git-commit skill and the maintainer's project preferences |
 
 Each record identifies its source, author/project credit, reviewed repository
