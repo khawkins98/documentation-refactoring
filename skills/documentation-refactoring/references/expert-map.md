@@ -13,7 +13,7 @@ and a way to study the source methods, not a requirement to fetch and execute th
 | An existing docs set is hard to navigate | Information architecture: Samuel Berthe's structure audit | Inventory, find competing accounts, improve routes |
 | Moved detail is difficult to find | Information scent: Raluca Budiu / Nielsen Norman Group | Check whether the link and its context predict the destination's answer |
 | A README loses its intended audience | Audience: Softaworks' README guidance | Restore a clear entrance and working first success |
-| Correct information is hard to read | Prose: Softaworks' writing guidance | Edit for concrete wording after deciding what belongs |
+| Correct information is hard to read | Prose: Softaworks' writing guidance and William Strunk Jr.'s composition principles | Edit wording, clause placement and comparable steps after deciding what belongs |
 | Prose feels formulaic or overworked | Voice and rhythm: Siqi Chen's Humanizer | Apply a compact, context-sensitive prose pass that preserves meaning |
 | A diff needs a restrained editorial review | LangChain's docs-review and CI guidance | Find regressions, preserve meaning during cuts and allow no findings |
 | A code change may affect documentation | Vercel / Next.js's update-docs | Trace reader-visible behavior to affected tasks and shared-content consumers |
@@ -31,7 +31,8 @@ The entries below are **inspiration**, not copied text or vendored skills. These
 credits identify the ideas used; source licenses do not become this project's
 license merely because we link to them. Pinning records what was reviewed and
 does not imply upstream endorsement. Initial repository sources reviewed
-2026-11-05; LangChain, Next.js, Humanizer and the web article below reviewed 2026-11-06.
+2026-11-05; LangChain, Next.js, Humanizer and the web article below reviewed 2026-11-06;
+Strunk's text reviewed 2026-11-07.
 
 ### Structure and placement
 
@@ -93,6 +94,20 @@ does not imply upstream endorsement. Initial repository sources reviewed
 - Use: independently written guidance tracing source changes to documentation
   impact. Verify mapping entries before relying on them. Next.js paths, templates
   and confirmation steps are not adopted. No source text is included.
+
+### Composition and sentence clarity
+
+- Credit: **William Strunk Jr.**, *The Elements of Style*, 1920 edition; electronic
+  transcription by Jana Srna and the Online Distributed Proofreading Team.
+- Source: [Project Gutenberg eBook 37134, Chapter III](https://www.gutenberg.org/files/37134/37134-h/37134-h.htm).
+  The ebook was last updated 2011-08-19; reviewed 2026-11-07. Selected principles
+  from sections 8, 10–13 and 15–16 inform the prose criteria.
+- Rights: the [catalogue](https://www.gutenberg.org/ebooks/37134) identifies the
+  underlying text as public domain in the USA. The ebook carries Project Gutenberg
+  distribution terms; no ebook text or examples are reproduced here.
+- Use: conceptual inspiration, independently written. The local criteria preserve
+  project voice, necessary detail, useful passive voice and direct prohibitions.
+  Later Strunk–White editions and the book's full usage catalogue are not adopted.
 
 ### Compact prose pass
 

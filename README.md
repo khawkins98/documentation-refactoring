@@ -16,8 +16,9 @@ instructions take precedence over my defaults. Neither skill grants permission
 to push, publish or merge.
 
 The foundations belong to their authors: **Daniele Procida (Diátaxis), GitHub and
-awesome-copilot contributors, Samuel Berthe, Leonardo Flores / Softaworks, Google,
-Anthropic, Siqi Chen (Humanizer), dmythro and the Conventional Commits contributors**.
+awesome-copilot contributors, Samuel Berthe, Leonardo Flores / Softaworks,
+William Strunk Jr., Google, Anthropic, Siqi Chen (Humanizer), dmythro and the
+Conventional Commits contributors**.
 The [source and reuse records](SOURCES.md) credit each contribution and distinguish
 inspiration, adaptation and direct reuse.
 
